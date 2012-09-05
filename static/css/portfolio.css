@@ -1,0 +1,431 @@
+
+.sliders{
+	
+	text-align:center
+}
+
+body {
+	margin-bottom: 0;
+}
+
+.container {
+	overflow: hidden;
+	position: relative;
+}
+
+.dropdown {
+	z-index: 1;
+}
+
+.participants .item {
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 2px;	
+}
+
+.participants .item:hover {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-ms-transform: scale(1);
+}
+
+.participants .description {
+	opacity: 0;
+	position: absolute;
+	top: 90px;
+	width: 150px;
+	margin-left: 5px;
+	text-align: left;
+	font-size: 20px;
+}
+.participants .item:hover .description {
+	opacity: 1;
+}
+
+.participants .item .description {
+	color: #FFF;
+	text-decoration:none;
+}
+
+.participants .item .description h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item .description p{
+	font-family: 'Nothing You Could Do', cursive;
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item:hover .overlay {
+	opacity:1;
+}
+
+.overlay {
+	padding: 2px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:150px;
+	height:150px;
+	background-image:url('../images/overlay2.png');
+	opacity:0;
+}
+
+.purpose{
+	margin-top: 70px;
+	margin-right: 200px;
+}
+
+.range{
+	text-align: center;
+}
+
+.border {
+	border-style:solid;
+	border-width:12px;
+	border-color: #A9A9A9;
+
+}
+
+.image-right {
+	margin-left: 3em;
+}
+
+.video {
+	margin-top: 1.5em;
+}
+
+/*img {
+	margin-top: 1.5em;
+}*/
+
+
+
+a {
+  color: #FF9900;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+a:hover {
+  color: #66CC00;
+  text-decoration: underline;
+}
+
+caption {
+font-family: 'Dosis', sans-serif;
+font-size: 15px;	
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 36px;
+  font-family: 'Overlock', cursive;
+}
+
+h1 small {
+  	font-size: 18px;
+}
+
+h2 {
+  margin-left: 20px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+h2 small {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Overlock', cursive;
+}
+
+h3 small {
+  font-size: 14px;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 18px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: 'Overlock', cursive;
+}
+
+h4 small {
+  font-size: 12px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 11px;
+  color: #999999;
+  text-transform: uppercase;
+}
+
+p{
+font-family: 'Dosis', sans-serif;
+font-size: 20px;
+line-height: 1.3em;
+}
+
+p.small {
+  font-size: 14px;
+  color: #999999;
+}
+
+p.note {
+	font-family: 'Waiting for the Sunrise', cursive;
+}
+
+blockquote {
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.award {
+	position: absolute;
+	max-height: 80%;
+	right:4%;
+	z-index: 1;
+	-moz-transform:rotate(4deg);
+	-webkit-transform:rotate(4deg);
+	-o-transform:rotate(4deg);
+	-ms-transform:rotate(4deg);
+}
+
+.recommend {
+	top: -50px;
+	position: absolute;
+	max-height: 80%;
+	right:4%;
+	z-index: 0;
+	-moz-transform:rotate(4deg);
+	-webkit-transform:rotate(4deg);
+	-o-transform:rotate(4deg);
+	-ms-transform:rotate(4deg);
+	-webkit-transition: .25s linear;
+	transition: .25s linear;
+}
+
+.recommend:hover {
+	top: 0;
+	position: absolute;
+	max-height: 80%;
+	right:4%;
+	z-index: 1;
+	-webkit-transition: .30s ease-in-out;
+	transition: .30s ease-in-out;
+}
+
+.recommend-bottom {
+	bottom: -80px;
+	background-image:url(../images/recommend_bottom.png);
+	height:220px;
+	width:230px;
+	position: absolute;
+	/*max-height: 80%;*/
+	right:4%;
+	z-index: 1;
+	-webkit-transition: .25s linear;
+	transition: .25s linear;
+}
+
+.recommend-bottom:hover {
+	bottom: -20px;
+	position: absolute;
+	/*max-height: 80%;*/
+	right:4%;
+	z-index: 1;
+	-webkit-transition: .30s ease-in-out;
+	transition: .30s ease-in-out;
+}
+
+.btn-recommend {
+	margin-top: 200px; 
+	display: block;
+	margin-left: 50px;  
+	margin-bottom: 50px; 
+}
+
+.horizontal_dotted_line 
+{ 
+border-bottom: 1px dotted #80c080; 
+width: 100px; 
+} 
+
+.rotate {
+	-moz-transform:rotate(2deg);
+	-webkit-transform:rotate(2deg);
+	-o-transform:rotate(2deg);
+	-ms-transform:rotate(2deg);
+}
+
+.rotate-left {
+	-moz-transform:rotate(-2deg);
+	-webkit-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg);
+}
+
+.dropshadow {
+	-moz-box-shadow: 5px 5px 2px #E0D8E0;
+	-webkit-box-shadow: 5px 5px 2px #E0D8E0;
+	box-shadow: 5px 5px 2px #E0D8E0;
+}
+
+.statement {
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 2.3em;
+	margin-top: 50px;
+	line-height: 1.5em;
+
+.instructions {
+	margin-top: 50px;
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 1.3em;
+	line-height: 1em;
+	-moz-transform:rotate(-2deg);
+	-webkit-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg);
+}
+
+/*blockquote p{
+	float:left;
+}*/
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 9px 25px;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li {
+  line-height: 18px;
+  font-family: 'Dosis', sans-serif; 
+}
+
+.logo {
+	float: right;
+	height: 50px;
+}
+.logo.getgo {
+	height: 50px;
+}
+
+.tooltip {
+  border-bottom: 1px dotted #000000;
+  color: #000000; outline: none;
+  cursor: help; text-decoration: none;
+  position: relative;
+}
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+.details{
+	float: left;
+	margin: 10px;
+}
+
+.other {
+	float: left;
+}
+/*
+.right {
+	float:right;
+	margin-right: 300px;
+}
+*/
+.about {
+	height:400px;
+}
+
+----------
+.button{
+width:100px;
+height:100px;
+display:block;
+border-radius:50px;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+-khtml-border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+background:#000;
+margin-bottom:20px;
+
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.aim {
+	background-image: Portfolio/static/images/card.png;
+}
+
+
+.aim:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	background-image: #000000,
+}
+
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+}
+.footer {
+	background-color: black;
+	padding: 10px;
+	position: relative;
+	margin:0;
+}
+.footer p {
+	color:#FFFFFF;
+	font-family: 'Courgette', cursive;
+	margin-left: 50px;
+}

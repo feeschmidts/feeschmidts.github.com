@@ -1,32 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
-  <link rel="stylesheet" href="/css/styles.css" />
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="./static/bootstrap/css/bootstrap-responsive.css" type="text/css">
+  <link rel="stylesheet" href="static/css/portfolio.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Overlock:900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+  <script src="static/js/jquery-1.7.2.min.js"></script>
+  <script src="static/js/bootstrap.carousel.js"></script>
+  <script src="static/js/bootstrap-dropdown.js"></script>
+  <script src="static/js/bootstrap-button.js"></script>
+  <script src="static/js/bootstrap-tooltip.js"></script>
+  <title>feeschmidts | Portfolio</title>
 </head>
-<body>
+  <body>
  
   <div id="main">
  
-    <header>
-      <h1> John Doe Photograghy </h1>
-    <header>
- 
-    <nav role="navigation">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/portfolio/">Portfolio</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
+   <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">feeschmidts Portfolio</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">Projects</a>
+            </li>
+            <li class="">
+              <a href="http://twitter.com/feeschmidts">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav nav-pills" style="float:right">
+            <li class="dropdown" id="menu1">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                Projects
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="kinnalcraft.html">Kinnal Craft</a></li>
+                <li><a href="KinnalCraftBook.html">Kinnal Craft Book</a></li>
+                <li><a href="monchique.html">Monchique Sustainable Tourism</a></li>
+                <li><a href="MonchiqueMaps.html">Monchique Maps</a></li>
+                <li class="divider"></li>
+                <li><a href="projects.html">All Projects</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
  
     {{ content }}
  
-    <footer>
-      <p>@copy; John Doe Photography 2011 | All Rights Reserved. </p>
+    <footer class="footer">
+      <div>
+        <p><a href="www.twitter.com/feeschmidts">Get in touch</a> or follow Fee's blogs about design methods and creative colourful things...</p>
+        <a href="http://craftythingsmade.wordpress.com"><img class="footer-icon" style="height:20px" src="static/images/logo_wp.png"/>Craftythingsmade</a>
+        <a href="http://craftythingsmade.wordpress.com"><img class="footer-icon" style="height:20px" src="static/images/logo_wp.png"/>Designerly Methods</a>
+      </div>
+
+      <p class="small">All content is provided by feeschmidts, all right reserved unless otherwise stated. Page's source code on <a href="www.github.com/feeschmidts">github</a>.</p>
     </footer>
+    <div class="recommend-bottom btn-recommend">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="feeschmidts">Tweet</a>
+    </div>
+  </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function() { 
+      $('.carousel').carousel('cycle')
+    });
+    $('.dropdown-toggle').dropdown();
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    $('.nav-tabs').button()
+    $('#example').tooltip(options)
+  </script>
  
   </div>
 </body>
