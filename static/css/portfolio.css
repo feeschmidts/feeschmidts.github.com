@@ -413,11 +413,6 @@ margin-bottom:20px;
 	background-image: #000000,
 }
 
-#rectangle {
-	width: 200px;
-	height: 100px;
-	background: red;
-}
 .footer {
 	background-color: black;
 	padding: 10px;
@@ -425,7 +420,6 @@ margin-bottom:20px;
 	margin:0;
 }
 .footer p {
-	color:#FFFFFF;
 	font-family: 'Courgette', cursive;
 	margin-left: 50px;
 }
