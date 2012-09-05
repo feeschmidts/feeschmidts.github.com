@@ -403,6 +403,12 @@ margin-bottom:20px;
 	background-image: Portfolio/static/images/card.png;
 }
 
+.tweet-bottom {
+	position: relative;
+	margin-top: 500px;
+	top:0;
+ right:0;
+}
 
 .aim:hover{
 	-moz-transform: scale(1.1);
@@ -422,4 +428,8 @@ margin-bottom:20px;
 .footer p {
 	font-family: 'Courgette', cursive;
 	margin-left: 50px;
+}
+
+.contact {
+	background-color: #C0C0C0;
 }
