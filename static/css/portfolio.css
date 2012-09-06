@@ -342,6 +342,7 @@ li {
 .logo {
 	float: right;
 	height: 50px;
+	padding-right: 30px;
 }
 .logo.getgo {
 	height: 50px;
