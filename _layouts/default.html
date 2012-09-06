@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="static/images/favicon.png" />
+  <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="./static/bootstrap/css/bootstrap-responsive.css" type="text/css">
+  <link rel="stylesheet" href="./static/css/portfolio.css" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Overlock:900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+  <script src="static/js/jquery-1.7.2.min.js"></script>
+  <script src="static/js/bootstrap.carousel.js"></script>
+  <script src="static/js/bootstrap-dropdown.js"></script>
+  <script src="static/js/bootstrap-button.js"></script>
+  <script src="static/js/bootstrap-tooltip.js"></script>
+  <title>feeschmidts | Portfolio</title>
+
+<!--  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32256138-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> -->
+</head>
+  <body>
+ 
+  <div id="main">
+ 
+   <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="index.html">feeschmidts Portfolio</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">{% if page.title %} {{ page.title }} {% endif %}</a>
+            </li>
+            <li class="">
+              <a href="http://twitter.com/feeschmidts">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav nav-pills" style="float:right">
+            <li class="dropdown" id="menu1">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                Projects
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="activy.html">Social Innovation Toolkit</a></li>
+                <li><a href="baobab.html">Baobab - Southbank</a></li>
+                <li><a href="GetGo.html">Getgo Glasgow</a></li>
+                <li><a href="GfN.html">Spotted! App</a></li>
+                <li><a href="levenskracht.html">Levenskracht</a></li>
+                <li><a href="carbonculture.html">CarbonCulture</a></li>
+                <li><a href="kinnalcraft.html">Kinnal Craft</a></li>
+                <li><a href="KinnalCraftBook.html">Kinnal Craft Book</a></li>
+                <li><a href="monchique.html">Monchique Sustainable Tourism</a></li>
+                <li><a href="MonchiqueMaps.html">Monchique Maps</a></li>
+                <li><a href="secure.html">Branding & Strategy - Secure</a></li>
+                <li class="divider"></li>
+                <li><a href="projects.html">All Projects</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+    {{ content }}
+    
+  </div>
+</div>
+  </div>
+  
+  <script type="text/javascript">
+    $(document).ready(function() { 
+      $('.carousel').carousel('cycle')
+    });
+    $('.dropdown-toggle').dropdown();
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    $('.nav-tabs').button();
+    $('#example').tooltip('show')
+  </script>
+ 
+  </div>
+</body>
+</html>
