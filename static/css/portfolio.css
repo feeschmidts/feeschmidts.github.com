@@ -259,6 +259,10 @@ blockquote {
 	transition: .30s ease-in-out;
 }
 
+.btn {
+	margin: 3px;
+}
+
 .btn-recommend {
 	margin-top: 200px; 
 	display: block;
