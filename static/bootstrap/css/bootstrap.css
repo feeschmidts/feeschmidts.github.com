@@ -756,11 +756,11 @@ abbr.initialism {
   text-transform: uppercase;
 }
 
-blockquote {
+/*blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
   border-left: 5px solid #eeeeee;
-}
+}*/
 
 blockquote p {
   margin-bottom: 0;
@@ -2831,10 +2831,10 @@ table .span24 {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.well blockquote {
+/*.well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
-}
+}*/
 
 .well-large {
   padding: 24px;
