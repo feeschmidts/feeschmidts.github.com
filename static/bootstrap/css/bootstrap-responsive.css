@@ -94,6 +94,7 @@
 @media (min-width: 1200px) {
   .row {
     margin-left: -30px;
+    margin-top: 50px; /*added for spacing*/
     *zoom: 1;
   }
   .row:before,
