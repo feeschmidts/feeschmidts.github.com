@@ -322,10 +322,11 @@ width: 100px;
 	font-size: 2.3em;
 	margin-top: 50px;
 	line-height: 1.5em;
+}
 
 .instructions {
 	margin-top: 50px;
-	font-family: 'The Girl Next Door', cursive;
+	font-family:'The Girl Next Door', cursive;
 	font-size: 1.3em;
 	line-height: 1em;
 	-moz-transform:rotate(-2deg);
@@ -366,8 +367,8 @@ li {
 
 .logo {
 	float: right;
-	height: 50px;
-	padding-right: 30px;
+	max-height: 50px;
+	padding: 30px;
 }
 .logo.getgo {
 	height: 50px;
@@ -450,7 +451,7 @@ margin-bottom:20px;
 	background-image: #000000,
 }
 
-footer {
+/*footer {
 	background-color: black;
 	padding: 10px;
 	position: relative;
@@ -459,7 +460,7 @@ footer {
 footer p {
 	font-family: 'Courgette', cursive;
 	margin-left: 50px;
-}
+}*/
 
 .contact {
 	background-color: #C0C0C0;
