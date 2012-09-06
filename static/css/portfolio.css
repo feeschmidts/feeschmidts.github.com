@@ -367,11 +367,11 @@ li {
 
 .logo {
 	float: right;
-	max-height: 50px;
+	max-height: 80px;
 	padding: 30px;
 }
-.logo.getgo {
-	height: 40px;
+.logo.small {
+	height: 50px;
 }
 
 .tooltip {
