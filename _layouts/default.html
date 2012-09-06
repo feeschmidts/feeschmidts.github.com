@@ -34,7 +34,7 @@
         <div class="nav-collapse collapse">
           <ul class="nav">
             <li class="active">
-              <a href="#">{{title}}</a>
+              <a href="#">{% if page.title %} {{ page.title }} {% endif %}</a>
             </li>
             <li class="">
               <a href="http://twitter.com/feeschmidts">Contact</a>
