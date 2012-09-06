@@ -200,6 +200,10 @@ blockquote {
 	line-height: 1.3em;
 }
 
+.centre {
+	margin-top: 35px;
+}
+
 .award {
 	position: absolute;
 	max-height: 80%;
