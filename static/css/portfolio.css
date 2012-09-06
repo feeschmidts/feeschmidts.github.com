@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-	overflow: hidden;
-	position: relative;
+	/*overflow: hidden;
+	position: relative;*/
 }
 
 .dropdown {
@@ -419,13 +419,13 @@ margin-bottom:20px;
 	background-image: #000000,
 }
 
-.footer {
+footer {
 	background-color: black;
 	padding: 10px;
 	position: relative;
-	margin:0;
+	margin-right: 100px;
 }
-.footer p {
+footer p {
 	font-family: 'Courgette', cursive;
 	margin-left: 50px;
 }
