@@ -17,6 +17,10 @@ body {
 	z-index: 1;
 }
 
+.project {
+	min-height: 500px;
+}
+
 .participants .item {
 	width: 150px;
 	height: 150px;
