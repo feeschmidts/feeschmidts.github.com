@@ -240,7 +240,6 @@ blockquote {
 .recommend {
 	top: -60px;
 	position: absolute;
-	max-width: 30%;
 	max-height: 80%;
 	right:6%;
 	z-index: 0;
@@ -261,7 +260,7 @@ blockquote {
 	top: 0;
 	position: absolute;
 	max-height: 80%;
-	right:4%;
+	right:6%;
 	z-index: 1;
 	-webkit-transition: .30s ease-in-out;
 	transition: .30s ease-in-out;
