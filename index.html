@@ -375,9 +375,9 @@ $(function() {
   });
   $('#tag-buttons button').click(function() {
     var tagname = $(this).data('tag');
-    var projects = $('#projects').empty();
+    var projects = $('div.project').hide();
     $.each(taglist[tagname], function() {
-      projects.append(this);
+      this.show();
     });
     
   });
