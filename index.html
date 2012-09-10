@@ -56,7 +56,7 @@ title: About
 
 
   
-    <div class="row">
+    <div class="row" id="projects">
       
       <div class="span4 project" data-tag="book craft documentation">
         <a href="KinnalCraftBook.html"><img src="http://farm9.staticflickr.com/8170/7886663102_291cb8e93a_n.jpg" width="100%" alt="Photo of Kinnal Book spread of the new products created"/></a>
@@ -356,7 +356,7 @@ title: About
 <script>
 $(function() {
   var taglist = {};
-  $("div.project").each(function() {
+  $('div.project').each(function() {
     var elem = $(this);
     var tags = elem.data("tag");
     if (tags) {
@@ -369,12 +369,20 @@ $(function() {
   });
   var tagbuttons = $("#tag-buttons");
   $.each(taglist, function(tagname) {
-    tagbuttons.append('<button class="btn" data-toggle="button">'+tagname+'</button>');  
+    var button = $('<button class="btn" data-toggle="button">'+tagname+'</button>');
+    button.data('tag', tagname);
+    tagbuttons.append(button);  
+  });
+  $('#tag-buttons button').click(function() {
+    var tagname = $(this).data('tag');
+    var projects = $('#projects').empty();
+    $.each(taglist[tagname], function() {
+      projects.append(this);
+    });
+    
   });
 });
-  // var divs = $("div.project").click(tag-buttons).sort(function() {
-
-  // }
+  
 // var divs = $("div.project").get().sort(function(){ 
 //             return Math.round(Math.random())-0.5; //so we get the right +/- combo
 //            }).slice(0,4);
