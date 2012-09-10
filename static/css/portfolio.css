@@ -474,3 +474,10 @@ footer p {
 .contact {
 	background-color: #C0C0C0;
 }
+.date {
+	width: 100px;
+	vertical-align: top;
+	padding-top:10px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+}
