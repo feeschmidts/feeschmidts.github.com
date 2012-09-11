@@ -211,6 +211,12 @@ p.small {
   color: #999999;
 }
 
+.caption {
+	font-size: 14px;
+  	color: #999999;
+  	margin-top: 10px;
+}
+
 p.note {
 	font-family: 'Waiting for the Sunrise', cursive;
 	font-size: 21px;
@@ -513,3 +519,4 @@ footer p {
 	padding-right: 20px;
 	padding-bottom: 30px;
 }
+
