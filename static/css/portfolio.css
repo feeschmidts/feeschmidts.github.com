@@ -403,8 +403,9 @@ ol {
 }
 
 li {
-  line-height: 18px;
-  font-family: 'Dosis', sans-serif; 
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em; 
 }
 
 .logo {
@@ -445,7 +446,10 @@ li {
 }
 
 .spacer {
-	margin-top: 100px;
+	margin-top: 80px;
+}
+.left-spacer {
+	margin-left: 120px;
 }
 ----------
 .button{
@@ -518,5 +522,9 @@ footer p {
 	padding: 5px;
 	padding-right: 20px;
 	padding-bottom: 30px;
+}
+.relevance {
+	margin-bottom:25px;
+	font-size: 25px;
 }
 
