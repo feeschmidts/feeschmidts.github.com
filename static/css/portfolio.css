@@ -403,9 +403,14 @@ ol {
 }
 
 li {
+  line-height: 18px;
+  font-family: 'Dosis', sans-serif; 
+}
+.span12 li {
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
-	line-height: 1.3em; 
+	line-height: 1.3em;
+
 }
 
 .logo {
