@@ -318,6 +318,7 @@ blockquote {
 
 .btn {
 	margin: 3px;
+	color:#FF9F40;
 }
 
 .btn-recommend {
@@ -403,6 +404,8 @@ ol {
 }
 
 li {
+background-image: url(static/images/tinystar.png);
+background-repeat: no-repeat;
   line-height: 18px;
   font-family: 'Dosis', sans-serif; 
 }
@@ -410,7 +413,13 @@ li {
 	font-family: 'Dosis', sans-serif;
 	font-size: 20px;
 	line-height: 1.3em;
+}
 
+.span4 li {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	line-height: 1.3em;
+	line-height: 28px;
 }
 
 .logo {
@@ -466,7 +475,7 @@ border-radius:50px;
 -webkit-border-radius:50px;
 -khtml-border-radius:50px;
 font-size:20px;
-color:#fff;
+color:#FF0000;
 line-height:100px;
 text-align:center;
 background:#000;
