@@ -264,6 +264,11 @@ blockquote {
 	transition: .25s linear;
 }
 
+.twitter-recommend {
+	float: right;
+	margin-right: 6.5%;
+}
+
 @media (max-width: 979px) {
 	.recommend {
 		float: right;
