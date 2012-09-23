@@ -14,7 +14,6 @@
   <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
   <script src="static/js/jquery-1.7.2.min.js"></script>
   <script src="static/bootstrap/js/bootstrap.js"></script>
-  <script src="static/js/carousel.js"></script>
   <title>feeschmidts | Portfolio</title>
 
 <!--Google Analytics-->
@@ -43,10 +42,11 @@
   
   <script type="text/javascript">
     $(document).ready(function() { 
-      $('.carousel').carousel('cycle')
-    });
-    $('.dropdown-toggle').dropdown()
+    $('.carousel').carousel('cycle');
+    $('.dropdown-toggle').dropdown();
     $('.nav-tabs').button();
+    $("[rel=tooltip]").tooltip();
+    });
   </script>
 </body>
 </html>
