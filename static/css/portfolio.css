@@ -224,6 +224,21 @@ p.note {
 	margin-top: 20px;
 }
 
+@media (min-width: 1200px){
+	.notepad {
+		width: 350px;
+		height: 430px;
+		position: absolute;
+		right: 6%;
+	}
+}
+
+@media (max-width: 1200px){
+	.notepad {
+		display: none;
+	}
+}
+
 blockquote {
 	font-family: 'Dosis', sans-serif;
 	font-size: 30px;
@@ -459,8 +474,11 @@ li {
 	float: left;
 }
 
-.about {
-	height:400px;
+@media (min-width: 1200px) {
+	.about {
+	max-width:730px;
+	min-height:400px;
+	}
 }
 
 .spacer {
