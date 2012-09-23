@@ -264,6 +264,13 @@ blockquote {
 	transition: .25s linear;
 }
 
+@media (max-width: 979px) {
+	.scalling-star {
+		max-height:100px;
+		max-width:100px;
+	}
+}
+
 .twitter-recommend {
 	float: right;
 	margin-right: 6.5%;
@@ -451,12 +458,7 @@ li {
 .other {
 	float: left;
 }
-/*
-.right {
-	float:right;
-	margin-right: 300px;
-}
-*/
+
 .about {
 	height:400px;
 }
