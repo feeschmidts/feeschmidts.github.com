@@ -264,33 +264,41 @@ blockquote {
 	transition: .25s linear;
 }
 
-.recommend {
-	top: -60px;
-	position: absolute;
-	max-height: 80%;
-	right:6%;
-	z-index: 0;
-	-moz-transform:rotate(4deg);
-	-webkit-transform:rotate(4deg);
-	-o-transform:rotate(4deg);
-	-ms-transform:rotate(4deg);
-	-webkit-transition: .25s linear;
-	transition: .25s linear;
+@media (max-width: 979px) {
+	.recommend {
+		float: right;
+	}
 }
 
-/*@media (max-width: 480px) {
-  .recommend {
-  	height: 10%;
-  }*/
+@media (min-width: 980px){
+	.twitter-share-button {
+		margin-left: 40px;
+		margin-top: 70px;
+	}
 
-.recommend:hover {
-	top: 0;
-	position: absolute;
-	max-height: 80%;
-	right:6%;
-	z-index: 1;
-	-webkit-transition: .30s ease-in-out;
-	transition: .30s ease-in-out;
+	.recommend {
+		background-image:url(../images/recommend.png); 
+		top: -60px;
+		right:6%;
+		position: absolute;
+		height: 313px;
+		width: 233px;
+		z-index: 0;
+		-moz-transform:rotate(4deg);
+		-webkit-transform:rotate(4deg);
+		-o-transform:rotate(4deg);
+		-ms-transform:rotate(4deg);
+		-webkit-transition: .25s linear;
+		transition: .25s linear;
+		text-align: center;
+	}
+
+	.recommend:hover {
+		top: -10px;
+		position: absolute;
+		right:6%;
+		z-index: 1;
+	}
 }
 
 .recommend-bottom {
