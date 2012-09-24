@@ -31,39 +31,7 @@ _plugins/navigation.html
 
 _posts/20011-10-25-open-source-is-good.markdown
 
-_site/404.html
-
-_site/GetGo.html
-
-_site/GfN.html
-
-_site/KinnalCraft.html
-
-_site/KinnalCraftBook.html
-
-_site/Monchique.html
-
-_site/MonchiqueMaps.html
-
-_site/about.html
-
-_site/activy.html
-
-_site/baobab.html
-
-_site/carbonculture.html
-
-_site/index.html
-
-_site/levenskracht.html
-
-_site/projects
-
-_site/projects.html
-
-_site/secure.html
-
-_site/sitemap.html
+_site/
 
 _site/static/bootstrap/css/bootstrap-responsive.css
 
@@ -144,5 +112,3 @@ _site/static/images/cv.png
 _site/snackapp.html
 
 _site/static/images/tinystar.png
-
-_site/energy-brand.html
