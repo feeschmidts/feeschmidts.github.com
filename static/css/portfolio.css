@@ -4,6 +4,10 @@
 	text-align:center
 }
 
+.main-description {
+	height: 150px;
+}
+
 body {
 	margin-bottom: 0;
 }
