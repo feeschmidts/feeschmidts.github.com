@@ -360,6 +360,10 @@ blockquote {
 	color:#FF9F40;
 }
 
+.snack-btn {
+	margin-top: 10px;
+}
+
 .btn-recommend {
 	margin-top: 200px; 
 	display: block;
