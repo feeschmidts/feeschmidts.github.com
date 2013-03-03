@@ -581,14 +581,17 @@ footer {
 	font-size: 25px;
 }
 
-.profile-pic {
-	background-image: url(http://farm9.staticflickr.com/8372/8524901613_54da8a8094_b.jpg);
-	background-repeat:no-repeat;
-	background-size:100%;
-	padding-top: 50px;
-	padding-bottom: 170px;
-	padding-left: 20px;
-	position: relative;
-	top: -10px;
-	z-index: -1;
+@media (min-width: 768px){
+	.profile-pic {
+		background-image: url(http://farm9.staticflickr.com/8372/8524901613_54da8a8094_b.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		padding-top: 50px;
+		padding-bottom: 170px;
+		padding-left: 20px;
+		position: relative;
+		top: -10px;
+		z-index: -1;
+	}
 }
+
