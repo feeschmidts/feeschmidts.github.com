@@ -552,6 +552,15 @@ footer p {
 	margin-left: 50px;
 }*/
 
+footer {
+	background: #303030;
+	padding: 10px;
+	color: gray;
+	padding-left: 11.6%;
+	padding-bottom: 50px;
+	margin-top:30px;
+}
+
 .contact {
 	background-color: #C0C0C0;
 }
@@ -572,3 +581,14 @@ footer p {
 	font-size: 25px;
 }
 
+.profile-pic {
+	background-image: url(http://farm9.staticflickr.com/8372/8524901613_54da8a8094_b.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	padding-top: 50px;
+	padding-bottom: 170px;
+	padding-left: 20px;
+	position: relative;
+	top: -10px;
+	z-index: -1;
+}
