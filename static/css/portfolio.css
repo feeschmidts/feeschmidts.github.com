@@ -231,7 +231,7 @@ p.note {
 @media (min-width: 1200px){
 	.notepad {
 		width: 350px;
-		height: 430px;
+		height: 280px;
 		position: absolute;
 		right: 6%;
 	}
