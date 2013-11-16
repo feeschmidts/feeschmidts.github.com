@@ -295,6 +295,19 @@ blockquote {
 	}
 }
 
+@media (max-width:500px) {
+	.scalling-star {
+		max-height: 50px;
+		max-width: 50px;
+	}
+}
+
+@media (max-width:377px) {
+	.scalling-star {
+		display:none;
+	}
+}
+
 .twitter-recommend {
 	float: right;
 	margin-right: 6.5%;
