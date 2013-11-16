@@ -409,6 +409,28 @@ width: 100px;
 	line-height: 1.5em;
 }
 
+@media (max-width:979px) {
+	.mobile-span12 {
+		width:100%;
+		margin-top: 350px;
+	}
+}
+
+@media (max-width: 699px) {
+  .statement {
+    font-size: 1.7em;
+  }
+  p {
+  	font-size: 1.2em;
+  }
+  h1 {font-size: 1.8em;
+  }
+  h2 {font-size: 1.8em;
+  }
+  .btn {font-size:0.9em;
+  }
+}
+
 .statement.about {
 	font-family: 'The Girl Next Door', cursive;
 	font-size: 2em;
@@ -596,8 +618,15 @@ footer {
 		padding-bottom: 170px;
 		padding-left: 20px;
 		position: relative;
-		top: -10px;
+		top:-10px;
+		width:100%;
 		/*z-index: -1;*/
+	}
+}
+
+@media (max-width: 767px){
+	.mobile-span12 {
+		margin-top:50px;
 	}
 }
 
