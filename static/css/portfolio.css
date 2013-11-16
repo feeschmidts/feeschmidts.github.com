@@ -306,6 +306,9 @@ blockquote {
 	.scalling-star {
 		display:none;
 	}
+	.link {
+		display:none;
+	}
 }
 
 .twitter-recommend {
@@ -645,6 +648,9 @@ footer {
 		width:43%;
 		float:left;
 		margin-right: 7%;
+	}
+	.link {
+		width: 70%;
 	}
 }
 @media (max-width:560px) {
