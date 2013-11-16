@@ -628,5 +628,14 @@ footer {
 	.mobile-span12 {
 		margin-top:50px;
 	}
+	.project {
+		width:43%;
+		float:left;
+		margin-right: 7%;
+	}
 }
-
+@media (max-width:560px) {
+	.project {
+		width:100%;
+	}
+}
