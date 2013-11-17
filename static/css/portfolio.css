@@ -286,6 +286,9 @@ blockquote {
 	.getgo-glasgow {
 		max-height: 40%;
 	}
+	.levenskracht-batch {
+		max-height: 35%;
+	}
 }
 .link:hover{
 	-moz-transform:rotate(8deg);
@@ -321,6 +324,10 @@ blockquote {
 	.getgo-glasgow {
 		max-height: 30%;
 		top:47px;
+	}
+	.levenskracht-batch {
+		max-height: 30%;
+		top:44px;
 	}
 }
 
