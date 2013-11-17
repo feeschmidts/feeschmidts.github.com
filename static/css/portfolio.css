@@ -255,6 +255,12 @@ blockquote {
 	line-height: 1.3em;
 }
 
+@media (max-width:1200px) {
+	blockquote {
+		font-size: 1.5em;
+	}
+}
+
 .centre {
 	margin-top: 35px;
 }
