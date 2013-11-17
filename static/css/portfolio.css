@@ -319,15 +319,26 @@ blockquote {
 		z-index: -1;
 	}
 	.book-link {
-		top:68px;
+		top:55px;
+		height: 120px;
 	}
 	.getgo-glasgow {
-		max-height: 30%;
+		height: 135px;
 		top:47px;
 	}
 	.levenskracht-batch {
-		max-height: 30%;
-		top:44px;
+		top:55px;
+		height: 120px;
+	}
+	.master-batch {
+		height: 110px;
+	}
+	.map-link {
+		height:100px;
+	}
+	.cc-report {
+		height:120px;
+		top:50px;
 	}
 }
 
