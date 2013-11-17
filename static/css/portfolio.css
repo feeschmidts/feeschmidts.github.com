@@ -270,6 +270,12 @@ blockquote {
 	-o-transform:rotate(4deg);
 	-ms-transform:rotate(4deg);
 }
+
+@media (max-width:1200px) {
+	.award {
+		max-height: 20%;
+	}
+}
 .link:hover{
 	-moz-transform:rotate(8deg);
 	-webkit-transform:rotate(8deg);
@@ -292,6 +298,11 @@ blockquote {
 	.scalling-star {
 		max-height:100px;
 		max-width:100px;
+	}
+	.award {
+		max-height: 20%;
+		margin-top: -25px;
+		z-index: -1;
 	}
 }
 
