@@ -312,6 +312,9 @@ blockquote {
 		margin-top: -25px;
 		z-index: -1;
 	}
+	.book-link {
+		top:68px;
+	}
 }
 
 @media (max-width:500px) {
