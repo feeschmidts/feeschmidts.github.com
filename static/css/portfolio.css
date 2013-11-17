@@ -143,9 +143,10 @@ a:hover {
   text-decoration: underline;
 }
 
-caption {
+.caption {
 font-family: 'Dosis', sans-serif;
-font-size: 15px;	
+font-size: 15px;
+height:40px;	
 }
 
 h1 {
@@ -707,7 +708,13 @@ footer {
 	}
 	.left-spacer {
 	margin-left: 0px;
-}
+	}
+	.mobile-span2 {
+		width:43%;
+		float:left;
+		margin-right: 7%;
+	}
+
 }
 @media (max-width:560px) {
 	.project {
