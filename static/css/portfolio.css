@@ -487,6 +487,13 @@ width: 100px;
 	}
 }
 
+.statement.about {
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 2em;
+	margin-top: 50px;
+	line-height: 1.3em;
+}
+
 @media (max-width: 699px) {
   .statement {
     font-size: 1.7em;
@@ -500,13 +507,9 @@ width: 100px;
   }
   .btn {font-size:0.9em;
   }
-}
-
-.statement.about {
-	font-family: 'The Girl Next Door', cursive;
-	font-size: 2em;
-	margin-top: 50px;
-	line-height: 1.3em;
+  .statement.about {
+  	font-size: 1.8em;
+  }
 }
 
 .instructions {
