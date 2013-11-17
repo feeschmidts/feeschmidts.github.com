@@ -283,6 +283,9 @@ blockquote {
 	.spotted-star {
 		display:none;
 	}
+	.getgo-glasgow {
+		max-height: 40%;
+	}
 }
 .link:hover{
 	-moz-transform:rotate(8deg);
@@ -315,12 +318,16 @@ blockquote {
 	.book-link {
 		top:68px;
 	}
+	.getgo-glasgow {
+		max-height: 30%;
+		top:47px;
+	}
 }
 
 @media (max-width:500px) {
 	.scalling-star {
 		max-height: 50px;
-		max-width: 50px;
+		min-width: 50px;
 	}
 }
 
