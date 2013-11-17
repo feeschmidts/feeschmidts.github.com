@@ -270,10 +270,18 @@ blockquote {
 	-o-transform:rotate(4deg);
 	-ms-transform:rotate(4deg);
 }
+@media (min-width:1100px) {
+	.spotted-star{
+		style="margin-right:100px;
+	}
+}
 
 @media (max-width:1200px) {
 	.award {
 		max-height: 20%;
+	}
+	.spotted-star {
+		display:none;
 	}
 }
 .link:hover{
