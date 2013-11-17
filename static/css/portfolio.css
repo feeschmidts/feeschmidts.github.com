@@ -693,6 +693,9 @@ footer {
 		/*z-index: -1;*/
 	}
 }
+.cc {
+	margin-left:10%;
+}
 
 @media (max-width: 767px){
 	.mobile-span12 {
@@ -716,9 +719,13 @@ footer {
 	}
 	.spacer {
 	margin-top: 30px;
+	}
+	.cc {
+	margin-left:0;
+	width:100%;
+	}
 }
 
-}
 @media (max-width:560px) {
 	.project {
 		width:100%;
