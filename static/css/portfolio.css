@@ -705,6 +705,9 @@ footer {
 	.link {
 		width: 70%;
 	}
+	.left-spacer {
+	margin-left: 0px;
+}
 }
 @media (max-width:560px) {
 	.project {
