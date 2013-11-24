@@ -28,6 +28,9 @@ title: Projects
         <div style="margin-bottom:30px" id="tag-buttons"></div>
       </div>
     </div>
+    <div class="row" style="text-align: center">
+      <p>Showing <span class="active" style="font-size:23px"></span> of <span class="total" style="font-size:23px"></span> projects</p>
+    </div>
       
     <div class="row" id="projects">
 
@@ -325,6 +328,8 @@ title: Projects
   
 <script>
 $(function() {
+  var total = $('.project').length;
+  $('span.total').text(total);
   var taglist = {};
   $('div.project').each(function() {
     var elem = $(this);
@@ -360,10 +365,10 @@ $(function() {
         });
 
         if (matched.length) {
-            $this.show("fast");
+            $this.addClass("active").show("fast");
         }
         else {
-            $this.hide();
+            $this.hide().removeClass("active");
         }
         // $(taglist[tagname]).first().show("fast", function showNext() {
         //   $(this).next().show("fast", showNext);
@@ -371,8 +376,10 @@ $(function() {
       });
     }
     else {
-      $('div.project').show();
+      $('div.project').addClass("active").show();
     }
+    var active = $('.project.active').length;
+    $('span.active').text(active);
   });
   $('#tag-buttons button').first().click();
 });
@@ -383,7 +390,6 @@ $(function() {
 //             return Math.round(Math.random())-0.5; //so we get the right +/- combo
 //            }).slice(0,4);
 // $(divs).appendTo(divs[0].parentNode).show();
-
 
 </script>
 
