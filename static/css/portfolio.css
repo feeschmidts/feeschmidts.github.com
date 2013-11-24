@@ -717,6 +717,12 @@ footer {
 	margin-left:0;
 	width:100%;
 	}
+	footer {
+		margin-left:-20px;
+		margin-right:-20px;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
 }
 
 @media (max-width:560px) {
