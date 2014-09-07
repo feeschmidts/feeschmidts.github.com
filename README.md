@@ -10,3 +10,9 @@ To get it to run on vagrant
     jekyll --server --auto
 
 In browser go to 'localhost:4000' to view site
+
+To stop working on the repositry
+
+    Ctrl + c   # Quits server
+    Ctrl + d   # Closes ssh connection
+    vagrant halt   # Shuts down the box
