@@ -11,3 +11,5 @@ Gemfile
 Gemfile.lock
 bin/
 .vagrant/
+
+*.scssc
