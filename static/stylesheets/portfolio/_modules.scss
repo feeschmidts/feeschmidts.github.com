@@ -1,0 +1,74 @@
+//  ---------------
+//  portfolio : modules
+//  ---------------
+
+//  nav
+//  -------
+
+.top-nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  padding: gap(0.5);
+  color: $red;
+  font-weight: $font-weight-bold;
+}
+
+//  headers
+//  -------
+
+.header__hero {
+  height: gap(25);
+  background: url(http://images.wookmark.com/295188_wookmark.jpg) no-repeat center center fixed;
+}
+
+.intro {
+  padding: gap(8);
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: $font-weight-bold;
+  color: $white;
+}
+
+.island {
+  background-color: red;
+}
+
+#tag-buttons {
+  padding-top: gap(2);
+}
+
+button {
+  background: transparent;
+  border: 1px solid $black;
+  padding: gap(.5)
+}
+button:hover {
+    background: $yellow;
+    color: $white;
+    border-color: $yellow;
+  }
+
+.btn {
+  margin-right: gap(1);
+  margin-bottom: gap(.5);
+}
+
+//  Color page
+//  ----------
+
+.colors {
+
+}
+
+.colors__red {
+  height: gap(5);
+  width: gap(3);
+  background-color: $red;
+}
+
+footer {
+  background: $black;
+  color: $white;
+}

@@ -10,7 +10,7 @@ author :
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
 #
-  omments :
+  comments :
   provider : disqus
   disqus :
     short_name : jekyllbootstrap
@@ -27,8 +27,11 @@ author :
 # Settings for analytics helper
 # Set 'provider' to the analytics provider you want to use.
 # Set 'provider' to false to turn analytics off globally.
-#        
+#
 analytics :
   provider : google
-  google : 
+  google :
       tracking_id : 'UA-123-12'
+
+sass:
+    sass_dir: static/stylesheets

@@ -1,0 +1,145 @@
+//  ---------------
+//  main :: generic
+//  ---------------
+
+//  focus
+//  -----
+    :focus {
+      outline: none;
+    }
+
+
+//  selection
+//  ---------
+    @each $prefix in "-webkit-", "-moz-", "" {
+       ::#{$prefix}selection {
+        background-color: $blue;
+        text-shadow: none;
+        color: $white;
+      }
+    }
+
+
+//  html
+//  ----
+    html {
+      // @extend %width1of1;
+
+      height: 100%;
+      font-size:   $base-font-size;
+      line-height: $base-line-height;
+      overflow: hidden;
+
+      @include media-query($tab) {
+        $base-font-size:   16px;
+        $base-line-height: 1.5;
+
+        font-size:   $base-font-size;
+        line-height: $base-line-height;
+      }
+
+      @include media-query($desk) {
+        $base-font-size:   18px;
+        $base-line-height: 1.55555555555556;
+
+        font-size:   $base-font-size;
+        line-height: $base-line-height;
+      }
+
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-touch-callout:       none;
+
+      * {
+        @each $prefix in "-webkit-", "-moz-", "" {
+
+          #{$prefix}box-sizing: border-box;
+
+        }
+      }
+    }
+
+
+//  body
+//  ----
+    body {
+      // @extend %width1of1;
+
+      @each $prefix in "-webkit-", "" {
+        #{$prefix}font-smoothing: antialiased;
+      }
+
+      -moz-osx-font-smoothing: antialiased;
+
+      height: 100%;
+      background-color: $body-bg;
+      font-family: $main-font;
+      font-weight: $font-weight-regular;
+      color: $text-body;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+
+//  ---------------
+//  text :: generic
+//  ---------------
+
+//  headers
+//  -------
+
+    @for $i from 1 through 6 {
+
+      h#{$i} {
+        // @extend %margin-bottom-only;
+
+        @include text(1.25);
+
+        font-weight: $font-weight-thin;
+      }
+
+    }
+
+
+//  paragraph
+//  ---------
+    p {
+      // @extend %margin-bottom-only;
+    }
+
+
+//  anchor
+//  ------
+    a {
+      // @extend %display-inline-block;
+    }
+
+
+//  small
+//  -----
+    small {
+      // @extend %display-inline-block;
+    }
+
+
+//  strong & bold
+//  -------------
+    strong, b {
+      // @extend %display-inline-block;
+
+      font-weight: $font-weight-bold;
+    }
+
+    //  links
+    //  -------------
+    a {
+      color: $blue;
+      text-decoration: none;
+      font-weight:400;
+    }
+    a:hover {
+      color: $yellow-dark;
+    }
+
+    .a__dark:hover {
+      color: #5EB0E5;
+    }
