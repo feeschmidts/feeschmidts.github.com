@@ -7,7 +7,7 @@ To get it to run on vagrant
 
     vagrant ssh
     cd /vagrant
-    jekyll --server --auto
+    jekyll serve --watch --force_polling //jekyll autogeneration does not work inside vagrant without --force_polling
 
 In browser go to 'localhost:4000' to view site
 
