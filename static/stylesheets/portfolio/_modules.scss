@@ -42,7 +42,7 @@
 button {
   background: transparent;
   border: 1px solid $black;
-  padding: gap(.5)
+  padding: gap(.5);
 }
 button:hover {
     background: $yellow;
@@ -58,17 +58,67 @@ button:hover {
 //  Color page
 //  ----------
 
-.colors {
-
+.colors__red {
+  height: gap(3);
+  background-color: $red;
+}
+.colors__yellow {
+  height: gap(3);
+  background-color: $yellow;
+}
+.colors__yellow-dark {
+  height: gap(3);
+  background-color: $yellow-dark;
 }
 
-.colors__red {
-  height: gap(5);
-  width: gap(3);
-  background-color: $red;
+.colors__orange {
+  height: gap(3);
+  background-color: $orange;
+}
+
+.colors__red-dark {
+  height: gap(3);
+  background-color: $red-dark;
+}
+
+.colors__blue {
+  height: gap(3);
+  background-color: $blue;
+}
+
+.colors__black {
+  height: gap(3);
+  background-color: $black;
 }
 
 footer {
   background: $black;
   color: $white;
+  padding: gap(1);
 }
+
+section {
+  padding: gap(1);
+}
+
+.styleguide__icons {
+  input {
+    margin-top: 5px;
+    padding: 8px;
+    display: block;
+    width: 180px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f4f4f4;
+  }
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: gap(.5);
+  }

@@ -2,18 +2,12 @@
 //  main :: generic
 //  ---------------
 
-//  focus
-//  -----
-    :focus {
-      outline: none;
-    }
-
 
 //  selection
 //  ---------
     @each $prefix in "-webkit-", "-moz-", "" {
        ::#{$prefix}selection {
-        background-color: $blue;
+        background-color: $yellow;
         text-shadow: none;
         color: $white;
       }
@@ -103,6 +97,8 @@
 //  paragraph
 //  ---------
     p {
+      font-family: $main-font !important;
+      font-weight: $font-weight-bold !important;
       // @extend %margin-bottom-only;
     }
 
@@ -132,14 +128,10 @@
     //  links
     //  -------------
     a {
-      color: $blue;
+      color: $yellow;
       text-decoration: none;
       font-weight:400;
     }
     a:hover {
       color: $yellow-dark;
-    }
-
-    .a__dark:hover {
-      color: #5EB0E5;
     }
