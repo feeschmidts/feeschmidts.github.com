@@ -23,6 +23,11 @@
   background: url(http://images.wookmark.com/295188_wookmark.jpg) no-repeat center center fixed;
 }
 
+.aboutme__hero {
+  height: gap(25);
+  background: url(https://farm4.staticflickr.com/3892/15216351741_73b619cc02_h.jpg) no-repeat center center fixed;
+}
+
 .intro {
   padding: gap(8);
   font-size: 45px;
@@ -39,12 +44,12 @@
   padding-top: gap(2);
 }
 
-button {
+.btn {
   background: transparent;
   border: 1px solid $black;
   padding: gap(.5);
 }
-button:hover {
+.btn:hover {
     background: $yellow;
     color: $white;
     border-color: $yellow;
@@ -118,11 +123,14 @@ section {
 }
 
 li {
-    list-style-type: none;
-    padding: 0;
-    margin: gap(.5);
-  }
+  list-style-type: none;
+  padding: 0;
+  margin: gap(.5);
+}
 
-  .header__project {
-    @include text(1.5);
-  }
+.header__project {
+  @include text(1.5);
+}
+.aboutme__statement {
+  color: white;
+}
