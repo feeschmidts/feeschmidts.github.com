@@ -14,34 +14,16 @@ title: Projects
 
     <div class="grid" id="projects">
 
-      <div class="span1of3 span2of4 span2of2 project" data-tag='["Featured", "Digital / Print Touchpoints", "User Experience", "HTML + CSS"]'>
-      <a href="xively.html" width="100%" alt="'From Cosm to Xively' displaying Cosm's homepage and Xively's homepage side by side">
-        <a href="xively.html"><img src="http://farm6.staticflickr.com/5349/9415797374_8e9110fa09_o.jpg" width="85%" alt="Link to Xively Project description"/></a>
-        <a href="xively.html"><h1>Xively IoT Platform</h1></a>
-        <p class="small"> ux | graphics | testing | user research | css</p>
-        <p class="main-description">
-        Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013. Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems.
-        </p>
-      </div>
-
-      <div class="span1of3 span2of4 span2of2 project" data-tag='["Featured", "Digital / Print Touchpoints", "User Experience", "HTML + CSS"]'>
-      <a href="openutility.html" width="100%" alt="Open Utility Startup">
-        <a href="openutility.html"><img src="http://farm8.staticflickr.com/7435/10496752013_521570962d_n.jpg" width="100%" alt="Link to Open Utility Project description"/></a>
-        <a href="openutility.html"><h1>Open Utility</h1></a>
-        <p class="small"> ux | branding | visual design | interaction</p>
-        <p class="main-description">
-        Open Utility is a Bethnal Green Venture Startup and London Seedcamp Week participant. Open Utility aims to provide a marketplace for small energy generation to allow people to purchase energy directly from the source.
-        </p>
-      </div>
-
-      <div class="span1of3 span2of4 span2of2 project" data-tag='["Digital / Print Touchpoints", "User Experience", "HTML + CSS"]'>
-        <a href="http://ashtag.org/"><img src="http://farm9.staticflickr.com/8208/8213746229_95aeb161a1.jpg" width="100%" alt="Link to Ashtag Website"/></a>
-        <a href="http://ashtag.org/"><h1>Ashtag Website Redesign</h1></a>
-        <p class="small"> ui | html+css</p>
-        <p class="main-description">
-        End October 2012 the Ash tree dieback disease gained lots of attention. Apps allow people to photograph trees and aid with identification. The ashtag.org is a gateway to download the apps but its redesign also makes it engaging to participate.
-        </p>
-      </div>
+      {% for project in site.data.projects %}
+          <div class="span1of3 span2of4 span2of2 project" data-tag='["{{ project.datatags | join:'", "' }}"]'>
+            <a href="{{ project.url }}">
+              <img src="{{ project.img }}" width="100%" alt="{{ project.imgalt }}">
+            </a>
+            <h2 class="header__project">{{ project.name }}</h2>
+            <p class="small">{{ project.categories | join:' | ' }}</p>
+            <p>{{ project.description }}</p>
+          </div>
+      {% endfor %}
 
       <div class="span1of3 span2of4 span2of2 project" data-tag='["Digital / Print Touchpoints", "User Experience"]'>
         <a href="snackapp.html"><img src="http://farm9.staticflickr.com/8450/8063172110_c090796ff9.jpg" width="100%" alt="Snackstopper app - native Win8 app"/></a>
