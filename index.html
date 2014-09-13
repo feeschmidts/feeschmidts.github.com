@@ -15,26 +15,17 @@ title: Portfolio
 <section id="projects">
   <div class="span8of8">
     <h1>Projects</h1>
-    <a class="btn" href="/projects.html">View all Projects</a>
+    <a class="btn" href="/projects/">View all Projects</a>
   </div>
-  <div class="span2of8 span2of4 span2of2">
-   <img src="https://farm6.staticflickr.com/5571/14940247598_c2207d4c4b_n.jpg" width="100%" alt="Xi - Mock - Edit Bar">
-   <h2 class="header__project">Project Name</h2>
-   <p>Etiam cursus sapien eget leo suscipit posuere eget non lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus convallis, nisl nec tincidunt hendrerit, ipsum dui posuere felis, eu posuere sapien lectus sit amet dolor. Vestibulum ullamcorper tortor laoreet, convallis nisi vitae, suscipit nisi. Suspendisse commodo blandit felis. In in convallis tellus. Nunc sodales massa lacus, quis rhoncus nibh vulputate quis.</p>
-   <small>Key words or categories</small>
-  </div>
-  <div class="span2of8 span2of4 span2of2">
-   <img src="https://farm6.staticflickr.com/5571/14940247598_c2207d4c4b_n.jpg" width="100%" alt="Xi - Mock - Edit Bar">
-   <h2 class="header__project">Project Name</h2>
-   <p>Etiam cursus sapien eget leo suscipit posuere eget non lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus convallis, nisl nec tincidunt hendrerit, ipsum dui posuere felis, eu posuere sapien lectus sit amet dolor. Vestibulum ullamcorper tortor laoreet, convallis nisi vitae, suscipit nisi. Suspendisse commodo blandit felis. In in convallis tellus. Nunc sodales massa lacus, quis rhoncus nibh vulputate quis.</p>
-   <small>Key words or categories</small>
-  </div>
-  <div class="span2of8 span2of4 span2of2">
-   <img src="https://farm6.staticflickr.com/5571/14940247598_c2207d4c4b_n.jpg" width="100%" alt="Xi - Mock - Edit Bar">
-   <h2 class="header__project">Project Name</h2>
-   <p>Etiam cursus sapien eget leo suscipit posuere eget non lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus convallis, nisl nec tincidunt hendrerit, ipsum dui posuere felis, eu posuere sapien lectus sit amet dolor. Vestibulum ullamcorper tortor laoreet, convallis nisi vitae, suscipit nisi. Suspendisse commodo blandit felis. In in convallis tellus. Nunc sodales massa lacus, quis rhoncus nibh vulputate quis.</p>
-   <small>Key words or categories</small>
-  </div>
+  {% for project in site.data.projects %}
+    {% if project.datatags contains "Featured" %}
+      <div class="span2of8 span2of4 span2of2">
+        <img src="{{ project.url }}" width="100%" alt="Xi - Mock - Edit Bar">
+        <h2 class="header__project">{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
 </section>
 <section id="methods">
   <div class="span3of8">

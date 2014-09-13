@@ -1,0 +1,49 @@
+- name: Xively IoT Platform
+  datatags:
+    - Featured
+    - Digital / Print Touchpoints
+    - User Experience
+    - HTML + CSS
+  categories:
+    - ux
+    - graphics
+    - testing
+    - user research
+    - css
+  description: Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013. Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems.
+  img: http://farm6.staticflickr.com/5349/9415797374_8e9110fa09_o.jpg
+  imgalt: From Cosm to Xively displaying Cosm's homepage and Xively's homepage side by side
+  url: xively.html
+
+
+- name: Open Utility
+  datatags:
+    - Featured
+    - Digital / Print Touchpoints
+    - User Experience
+    - HTML + CSS
+  categories:
+    - ux
+    - branding
+    - ui design
+    - interaction
+  description: Open Utility is a Bethnal Green Venture Startup and London Seedcamp Week participant. Open Utility aims to provide a marketplace for small energy generation to allow people to purchase energy directly from the source.
+  img: http://farm8.staticflickr.com/7435/10496752013_521570962d_n.jpg
+  imgalt: Open Utility first homepage
+  url: openutility.html
+
+
+- name: Ashtag Website Redesign
+  datatags:
+    - Digital / Print Touchpoints
+    - User Experience
+    - HTML + CSS
+  categories:
+    - ui
+    - ux
+    - HTML + CSS
+  description: End October 2012 the Ash tree dieback disease gained lots of attention. Apps allow people to photograph trees and aid with identification. The ashtag.org is a gateway to download the apps but its redesign also makes it engaging to participate.
+  img: http://farm9.staticflickr.com/8208/8213746229_95aeb161a1.jpg
+  imgalt: Ashtag website
+  url: http://ashtag.org
+
