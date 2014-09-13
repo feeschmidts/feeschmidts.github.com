@@ -47,3 +47,79 @@
   imgalt: Ashtag website
   url: http://ashtag.org
 
+
+- name: SnackStopper App
+  datatags:
+    - Digital / Print Touchpoints
+    - User Experience
+    - Print Touchpoints
+  categories:
+    - behavioural change
+    - ux
+    - wireframes
+    - ui
+    - testing
+  description: The SnackStopper app helps people to snack less by collecting ‘Feel Good’ points and showing off to their colleagues. The app is an outcome of The Giving Lab Win8 Hackathon at Seren at the beginning of Sep 2012 and will soon be available in Windows Marketplace.
+  img: http://farm9.staticflickr.com/8450/8063172110_c090796ff9.jpg
+  imgalt: Snackstopper app - native Win8 app
+  url: snackapp.html
+
+
+- name: Fabrics of the World Website
+  datatags:
+    - Digital / Print Touchpoints
+    - User Experience
+    - Curation / Editing
+    - HTML + CSS
+  categories:
+    - interviews
+    - HTML + CSS
+    - photography
+    - curation
+  description: Responsive website design to reveal stories and inspirations behind patterns and fabrics of the 'Under the Baobab' participatory art project which was exhibited throughout summer 2012 as part of the 'Festival of the World' at Southbank.
+  img: http://farm9.staticflickr.com/8169/7894033280_ec37b1c9fe_n.jpg
+  imgalt: Fabrics of the world' website viewed on desktop and mobile device
+  url: baobab.html
+
+
+- name: CarbonCulture
+  datatags:
+    - Featured
+    - Digital / Print Touchpoints
+    - User Experience
+    - Design Research
+    - Design for Service
+    - CoCreation
+    - Facilitation / Teaching
+    - Prototyping
+    - Design Strategy
+    - Curation / Editing
+  categories:
+    - interviews
+    - user-centred
+    - ux
+    - community management
+    - startup
+  description: London startup to save energy and carbon in workplaces through web behavioural change activities and visualisations. CarbonCulture was piloted with the Department of Energy and Climate Change in London and achieved a phenomenal 32% uptake.
+  img: http://farm9.staticflickr.com/8178/7894874134_6ef717fa9e_n.jpg
+  imgalt: CarbonCulture Platform
+  url: carbonculture.html
+
+
+- name: Spotted! App
+  datatags:
+    - Featured
+    - Digital / Print Touchpoints
+    - User Experience
+    - Design Research
+    - Prototyping
+  categories:
+    - idea
+    - hackathon
+    - nature
+    - teamwork
+  description: "Good for Nothing Wildthing outcome: A crowd sourced nature hunt app to get kids and parents playing and discovering nature. As creatures are found skills are gained and hunts are unlocked. There are five creatures to a hunt."
+  img: http://farm9.staticflickr.com/8440/7895090718_747457a27f_n.jpg
+  imgalt: A participant of Wildthing is testing out the spotted app in Global Generation's herbgarden on her iphone
+  url: spotted.html
+
