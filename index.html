@@ -20,7 +20,7 @@ title: Portfolio
   {% for project in site.data.projects %}
     {% if project.datatags contains "Featured" %}
       <div class="span2of8 span2of4 span2of2">
-        <img src="{{ project.url }}" width="100%" alt="Xi - Mock - Edit Bar">
+        <img src="{{ project.img }}" width="100%" alt="Xi - Mock - Edit Bar">
         <h2 class="header__project">{{ project.name }}</h2>
         <p>{{ project.description }}</p>
       </div>
