@@ -1,35 +1,3 @@
----
-layout: default
-title: Projects
----
-
-<div class="grid">
-  <div style="text-align: center">
-    <div id="tag-buttons"></div>
-  </div>
-</div>
-<div class="grid" style="text-align: center">
-  <p>Showing <span class="active" style="font-size:23px"></span> of <span class="total" style="font-size:23px"></span> projects</p>
-</div>
-
-<div class="grid" id="projects">
-
-  {% for project in site.data.projects %}
-      <div class="span1of3 span2of4 span2of2 project" data-tag='["{{ project.datatags | join:'", "' }}"]'>
-        <a href="{{ project.url }}">
-          <img src="{{ project.img }}" width="100%" alt="{{ project.imgalt }}">
-        </a>
-        <h2 class="header__project">{{ project.name }}</h2>
-        <p class="small">{{ project.categories | join:' | ' }}</p>
-        <p>{{ project.description }}</p>
-      </div>
-  {% endfor %}
-
-</div>
-
-<!--Wouldn't be such a bad idea to move these into a .js file if possible -->
-
-<script>
 $(function() {
   var total = $('.project').length;
   $('span.total').text(total);
@@ -94,4 +62,3 @@ $(function() {
 //            }).slice(0,4);
 // $(divs).appendTo(divs[0].parentNode).show();
 
-</script>
