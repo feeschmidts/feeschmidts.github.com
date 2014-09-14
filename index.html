@@ -14,8 +14,7 @@ title: Portfolio
 </section>
 <section id="projects">
   <div class="span8of8">
-    <h1>Projects</h1>
-    <a class="btn" href="/projects/">View all Projects</a>
+    <h1 class="section__header">Projects <a class="btn" href="/projects/">View all projects</a></h1>
   </div>
   {% for project in site.data.projects %}
     {% if project.datatags contains "Featured" %}
@@ -29,11 +28,10 @@ title: Portfolio
 </section>
 
 <section class="aboutme__hero" id="aboutme">
-  <div class="span3of8 aboutme__statement">
-    <h1>About me</h1>
-    <p>Description of sorts that summarises things I do.</p>
-    <p>Etiam cursus sapien eget leo suscipit posuere eget non lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus convallis, nisl nec tincidunt hendrerit, ipsum dui posuere felis, eu posuere sapien lectus sit amet dolor. Vestibulum ullamcorper tortor laoreet, convallis nisi vitae, suscipit nisi. Suspendisse commodo blandit felis. In in convallis tellus. Nunc sodales massa lacus, quis rhoncus nibh vulputate quis.</p>
-    <a class="btn" href="/about/">View More</a>
+  <div class="span3of8 span2of4 span2of2 aboutme__statement">
+    <h1 class="aboutme__heading">Hello!</h1>
+    <p>My name is Fee Schmidt-Soltau, I'm the User Experience Design Lead at <a href="http://xively.com">Xively</a> helping to make the 'Internet of Things' work for humans. I bring together Service Design, User Research and User Centred Design to shape the Xively development experience. I also get to play with code, Arduinos and Raspberry Pi on hackdays and get to meet lots of inspiring makers and entrepreneurs at the <a href="http://www.meetup.com/iotlondon/">#IoTLondon meetups</a>.</p>
+    <a class="btn" href="/about/">View more on how I work</a>
     <a class="btn" href="http://twitter.com/feeschmidts">Tweet me</a>
   </div>
 </section>

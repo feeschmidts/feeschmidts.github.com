@@ -25,8 +25,9 @@
 
 .aboutme__hero {
   height: gap(25);
-  background: url(https://farm4.staticflickr.com/3892/15216351741_73b619cc02_h.jpg) no-repeat center center fixed;
+  background: url(https://farm6.staticflickr.com/5569/15047715369_37e0f17b4b_h.jpg) no-repeat center center fixed;
 }
+
 
 .intro {
   padding: gap(8);
@@ -106,6 +107,16 @@ section {
   padding: gap(1);
 }
 
+.section__header {
+  @include text(1.5, 1);
+  padding-bottom: gap(1);
+
+  a {
+    @include text(1, 1);
+    margin-left: gap(2);
+  }
+}
+
 .styleguide__icons {
   input {
     margin-top: 5px;
@@ -131,6 +142,15 @@ li {
 .header__project {
   @include text(1.5);
 }
+
+.aboutme__heading {
+  @include text(3,2);
+  padding-top: gap(1);
+}
+
 .aboutme__statement {
-  color: white;
+  color: $white;
+  a {
+    border-color: $white;
+  }
 }
