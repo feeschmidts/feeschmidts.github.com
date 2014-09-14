@@ -10,15 +10,45 @@
     - testing
     - user research
     - css
-  description: Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013. Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems.
+  description: "Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013. Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems."
   img: http://farm6.staticflickr.com/5349/9415797374_8e9110fa09_o.jpg
   imgalt: From Cosm to Xively displaying Cosm's homepage and Xively's homepage side by side
   url: xively.html
 
 
-- name: Open Utility
+- name: Simple Sass Framework
   datatags:
     - Featured
+    - Documentation
+    - HTML + CSS
+  categories:
+    - process improvements
+    - css
+    - object oriented css
+  description: "Custom Sass, object oriented framework to more quickly develop new features and implement ux improvements. It allowed us to switch away from foundation with which we needed to overwrite many styling elements."
+  img: http://farm4.staticflickr.com/3850/14776956254_7e6136db1a_z.jpg
+  imgalt: Document listing all UI elements that informed the styleguide
+  url:
+
+
+- name: IoT end user applications
+  datatags:
+    - Featured
+    - ux
+    - wireframes
+    - consulting
+  categories:
+    - consulting
+    - ux
+    - ui
+  description: "As part of working at Xively, I also got involved with designing numerous end user applications for andoid, glass and webapps."
+  img: http://farm8.staticflickr.com/7351/12586402994_779d4de6d1_z.jpg
+  imgalt: alt
+  url:
+
+
+- name: Open Utility
+  datatags:
     - Digital / Print Touchpoints
     - User Experience
     - HTML + CSS
@@ -84,7 +114,6 @@
 
 - name: CarbonCulture
   datatags:
-    - Featured
     - Digital / Print Touchpoints
     - User Experience
     - Design Research
@@ -108,7 +137,6 @@
 
 - name: Spotted! App
   datatags:
-    - Featured
     - Digital / Print Touchpoints
     - User Experience
     - Design Research
@@ -206,7 +234,6 @@
 
 - name: Kinnal Craft Book
   datatags:
-    - Featured
     - Digital / Print Touchpoints
     - Curation / Editing
     - Documentation
