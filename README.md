@@ -16,3 +16,19 @@ To stop working on the repositry
     Ctrl + c   # Quits server
     Ctrl + d   # Closes ssh connection
     vagrant halt   # Shuts down the box
+
+To update the basic framework freshly-squeezed
+    cd into repositry
+    bower update
+
+
+To get bower to work on vagrant by reinstalling a different node version.
+
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get -y install nodejs
+    sudo apt-get install git-core
+
+To install a specific bower repo
+    node_modules/.bin/bower install [package name]
+

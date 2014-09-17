@@ -11,5 +11,7 @@ Gemfile
 Gemfile.lock
 bin/
 .vagrant/
+node_modules/
+static/components
 
 *.scssc
