@@ -1,0 +1,13 @@
+---
+layout: default
+title: Internet of Things Applications
+---
+
+
+{% for application in site.data.applications %}
+    <div class="span1of3 span2of2">
+      <img src="{{ application.img }}" width="100%" alt="Xi - Mock - Edit Bar">
+      <h2 class="header__project">{{ application.name }}</h2>
+      <p>{{ application.description }}</p>
+    </div>
+{% endfor %}

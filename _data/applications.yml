@@ -1,0 +1,62 @@
+- name: Checkit UX Recommendations
+  img: An image of the wireframes
+  description: Checkit is a smart monitoring system by Elektron Technology for food safety and enforcing HACCP compliance. It entails a range of temperature sensors and dashboards to allow food workers to respond to alters.
+  role: Work with Elektron as a usecase to inform the Xively product, whilst providing recommendations for the next phase of Checkit dashboards.
+
+
+- name: Xi Glass demo
+  img: Screenshot of Xi glass demo
+  description: Using google glass to control a xively connected tank for tradeshow demonstrations. The tank was able to refill and drain. The challenge of designing the glass ui for this demo was to communicate the current state of the tank and which actions were active.
+  role: This was a short project working with the Xively Services team, including a couple of iterations until the final implementation. My role was to define the flow and the different states as well as design the ui.
+  achievements:
+    - designing glass demo in short time-frame
+    - working across time zones
+    - tank demo was used as key demonstration at trade shows to communicate potential use cases for xively
+  demo: <iframe width="560" height="315" src="//www.youtube.com/embed/L5IJm8_xwiM" frameborder="0" allowfullscreen></iframe>
+
+
+- name: Connected commercial printers
+img: UI preview
+description: How to
+role: Working with the Xi Services Team as Lead Designer, coordinating the work of visual designers and front-enders.
+
+
+- name: Internet of School Things
+img: UI mock
+description: Internet of School things is a … How to allow school kids to easily provide access to sensor data whilst
+role: Defining early wireframes and flows.
+achievement: Has been trialed in X schools
+link: http://portal.iotschool.org/
+
+
+- name: Salesforce call assistant dashboard
+img: UI preview
+description: Providing a better UI integrated into salesforce to allow sales assistants to manage leads and follow up on new opportunities to meet their daily quota.
+role: Working with the Xi Services team to provide UX and UI recommendations on how to improve the usability of one of their consulting deliverables. Time management to meet the allocated time of visual designer and checking meetings. As we were involved rather late in the project, I focused on only a handful of ux and ui recommendations that would add a maximum positive impact.
+
+
+- name: Simple Scss Framework
+  img: An arrangement of pages
+  description: A lightweight framework that can be used for the xively platform as well as customer apps by simply applying a different theme. Both twitter bootstrap and foundation require a lot of overwriting of styles if you want to stray from its defaults. With more front end resource in house we decided to write our own framework, that we would know inside out and apply a ‘styleguide first’ principle to ensure ux and visual consistency throughout. As Xively works with many contractors, it became the go to place to download latest logos, brand guidelines or familiarise themselves with ux patterns or copy guidelines.
+  role: Overseeing and coordinating the development of the framework, contributing modules and writing a large proportion of the documentation.
+  achievements:
+    - reducing the front-end size from XXX to 82 bites which equates to the same size as typekit.
+    - large sections of the framework were adopted by other logmein products
+    - it significantly improved the speed of end-user app development from a front end perspective
+
+  details:
+    - Folder structure
+    - responsive grid behaviour
+    - layouts
+    - extends
+
+- name: Current Cost Dashboard
+  img: Screenshot
+  description: Simple responsive webapp dashboard which let's users see their home energy usage when ever they wish.
+  role: ux and visual design
+
+
+
+
+
+

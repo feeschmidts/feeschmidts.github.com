@@ -19,16 +19,22 @@
 //  -------
 
 .header__hero {
-  height: gap(27);
-  background: url(https://farm6.staticflickr.com/5576/15048533998_8a2ba0cba0_o.jpg) no-repeat center center fixed;
-  z-index: -2;
-  padding-top: gap(1);
+  background-image: url(http://farm4.staticflickr.com/3862/15245529122_9602820b67_o.jpg);
+  width: 100%;
+  height: 100%;
+
+  @include media-query ($min: $lap) {
+    height: gap(27);
+    background: url(http://farm4.staticflickr.com/3862/15245529122_9602820b67_o.jpg) no-repeat center center fixed;
+    z-index: -2;
+    padding-top: gap(1);
+  }
 }
 
 
 .aboutme__hero {
   height: gap(25);
-  background: url(https://farm6.staticflickr.com/5569/15047715369_37e0f17b4b_h.jpg) no-repeat center center fixed;
+  background: url(http://farm6.staticflickr.com/5569/15047715369_37e0f17b4b_h.jpg) no-repeat center center fixed;
 }
 
 
