@@ -42,11 +42,8 @@
   @include text(2,2);
   font-weight: $font-weight-bold;
   color: $white;
-  padding-top: gap(2);
-  position: absolute;
-  z-index: 0;
-  margin-right: 25%;
-  margin-left: 25%;
+  padding-top: gap(1.5);
+  text-align: center;
 }
 
 #tag-buttons {
@@ -112,12 +109,14 @@ footer {
 }
 
 section {
-  padding: gap(1);
+  padding-top: gap(1);
 }
 
 .section__header {
   @include text(1.5, 1);
   padding-bottom: gap(1);
+  padding-left: gap(.5);
+  padding-top: gap(.75);
 
   a {
     @include text(1, 1);
@@ -149,6 +148,7 @@ li {
 
 .header__project {
   @include text(1.5);
+  padding-top: gap(.5);
 }
 
 .aboutme__heading {
@@ -161,9 +161,4 @@ li {
   a {
     border-color: $white;
   }
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
 }
