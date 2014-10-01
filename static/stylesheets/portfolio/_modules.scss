@@ -48,6 +48,13 @@
 
 #tag-buttons {
   padding-top: gap(2);
+  text-align: center;
+}
+
+.tag-buttons__count {
+  @include text(1.2);
+  text-align: center;
+  padding-top: gap(1);
 }
 
 .btn {
