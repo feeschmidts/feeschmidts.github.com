@@ -196,3 +196,11 @@ blockquote {
   @include text(1.25, 1.5);
   font-weight: $font-weight-thin;
 }
+
+#methods {
+  background: #666666;
+  color: $white;
+  a {
+    border-color: $white;
+  }
+}

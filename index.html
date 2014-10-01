@@ -35,3 +35,22 @@ title: Portfolio
     <a class="btn" href="http://twitter.com/feeschmidts">Tweet me</a>
   </div>
 </section>
+
+<section id="methods">
+  <div class="span8of8">
+    <h1 class="section__header">Method Toolkit <a class="btn" href="/methods/">View all methods</a></h1>
+  </div>
+  {% for method in site.data.methods %}
+    {% if method.datatags contains "Featured" %}
+      <div class="span3of8 span4of4 span2of2">
+        <div class="span2of8">
+          <img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}">
+        </div>
+        <div class="span5of8">
+          <h2>{{ method.name }}</h2>
+          <p>{{ method.excerpt }}</p>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</section>
