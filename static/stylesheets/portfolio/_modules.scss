@@ -200,7 +200,16 @@ blockquote {
 #methods {
   background: #666666;
   color: $white;
+  padding-bottom: gap(1);
   a {
     border-color: $white;
   }
+  p {
+    @include text(0.8);
+  }
+}
+
+.method__title {
+  @include text(1, .5);
+  padding-bottom: gap(0);
 }
