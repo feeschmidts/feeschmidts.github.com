@@ -11,6 +11,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 4000, host: 4000
 
   config.vm.provision "shell",
-    inline: "apt-get install -y jekyll ruby-compass"
+    inline: "apt-get install -y ruby-dev"
+    inline: "sudo gem install jekyll"
+    inline: "curl -sL https://deb.nodesource.com/setup | sudo bash -"
+    inline: "sudo apt-get install nodejs"
 
 end
