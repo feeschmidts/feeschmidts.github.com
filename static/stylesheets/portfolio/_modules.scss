@@ -150,7 +150,6 @@ section {
 li {
   list-style-type: none;
   padding: 0;
-  margin: gap(.5);
 }
 
 .header__project {
@@ -172,4 +171,22 @@ li {
 
 .logo__nav {
   width: gap(5.5);
+}
+
+.content__center {
+  @include text(1, 1.25);
+  padding-top: gap(2);
+  max-width: gap(45);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project__titles {
+  @include text(1.5);
+  font-weight: $font-weight-bold;
+}
+
+blockquote {
+  @include text(1.25, 1.5);
+  font-weight: $font-weight-thin;
 }
