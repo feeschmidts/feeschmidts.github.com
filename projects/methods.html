@@ -3,30 +3,38 @@ layout: default
 title: Methods
 ---
 
-    <!--  <h1 class="statement">"The world's a playground, let's test and prototype ideas."</h1>
+<div class="grid" id="skills">
+  <h2>In a nutshell, Fee does ...</h2>
+  <ul>
+    <li><h1>Service Design</h1></li>
+    <p>
+      Products, print or digital touchpoints are part of a service system. I like to consider every manifestation of the service and stakeholder, their expectation and tasks, and like to design for the memory of the experience when a service or product is being used. For this I visualise research and processes by using a range of methods adapted to their context. These can include Probes, Ethnographic Research Methods, Vision Cards, Personas, Customer Journey Maps, Storyboards, Service Canvases, Flow Diagrams, System Maps, Business Model Canvas, Touchpoint Prototypes, Communication Mockups etc.</p>
 
-        <p>My name is Fee Schmidt-Soltau, I'm the User Experience Design Lead at <a href="http://xively.com">Xively</a> helping to make the 'Internet of Things' work for humans. I bring together Service Design, User Research and User Centred Design to shape the Xively development experience. I also get to play with code, Arduinos and Raspberry Pi on hackdays and get to meet lots of inspiring makers and entrepreneurs at the <a href="http://www.meetup.com/iotlondon/">#IoTLondon meetups</a>.</p> -->
+    <li class="spacer"><h1>Lead CoDesign Processes</h1></li>
+    <p>A people-centred process allows iterative and agile development of touchpoints and services, with the additional benefit of attracting early adopters and advocates. I like planning codesign workshops, preparing the tasks to facilitate conversation, brainstorming and storyboarding, and doing user testing and guerilla on qualitative basis.</p>
+  </ul>
+  </div>
+  <div class="span6">
+    <ul>
+    <li><h1>User Experience</h1></li>
+    <p>I share the view that the user's experience is created from every aspect of the service or business, from hearing about it, packaging, tone of voice, and its products beyond just the digital experience which facilitates the interaction between business and people. Therefore when designing digital touchpoints I think content hierarchy, navigation, copy, visual identity need to be designed in coherence with each other. I'm familiar with specifying User Requirements, Wireframing, User Flows, building Html Prototypes and coordinating with devs, front-end and other designers to detail iterative outcomes.</p>
+    <li class="spacer"><h1>Documentation</h1></li>
+    <p>I like to think visually and capture process. That's nothing new as a designer, but I literally like to document everything so no insights and reasons for decisions are lost. This can facilitate in drawing diagrams, sketches and thousands of photos with people in them.</p>
+  </ul>
+
+  </div>
+</div>
 
 
-    <div class="grid" id="skills">
-    <h2>In a nutshell, Fee does ...</h2>
+{% for method in site.data.methods %}
+    <div class="span3of8">
+      <img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}">
+    </div>
+    <div class="span3of8">
+      <h2>{{ method.name }}</h2>
+      <p>{{ method.description }}</p>
       <ul>
-        <li><h1>Service Design</h1></li>
-        <p>
-          Products, print or digital touchpoints are part of a service system. I like to consider every manifestation of the service and stakeholder, their expectation and tasks, and like to design for the memory of the experience when a service or product is being used. For this I visualise research and processes by using a range of methods adapted to their context. These can include Probes, Ethnographic Research Methods, Vision Cards, Personas, Customer Journey Maps, Storyboards, Service Canvases, Flow Diagrams, System Maps, Business Model Canvas, Touchpoint Prototypes, Communication Mockups etc.</p>
-
-        <li class="spacer"><h1>Lead CoDesign Processes</h1></li>
-        <p>A people-centred process allows iterative and agile development of touchpoints and services, with the additional benefit of attracting early adopters and advocates. I like planning codesign workshops, preparing the tasks to facilitate conversation, brainstorming and storyboarding, and doing user testing and guerilla on qualitative basis.</p>
+        <li>{{ method.details }}</li>
       </ul>
-      </div>
-      <div class="span6">
-        <ul>
-        <li><h1>User Experience</h1></li>
-        <p>I share the view that the user's experience is created from every aspect of the service or business, from hearing about it, packaging, tone of voice, and its products beyond just the digital experience which facilitates the interaction between business and people. Therefore when designing digital touchpoints I think content hierarchy, navigation, copy, visual identity need to be designed in coherence with each other. I'm familiar with specifying User Requirements, Wireframing, User Flows, building Html Prototypes and coordinating with devs, front-end and other designers to detail iterative outcomes.</p>
-        <li class="spacer"><h1>Documentation</h1></li>
-        <p>I like to think visually and capture process. That's nothing new as a designer, but I literally like to document everything so no insights and reasons for decisions are lost. This can facilitate in drawing diagrams, sketches and thousands of photos with people in them.</p>
-      </ul>
-
-     </div>
-
-   </div>
+    </div>
+  {% endfor %}
