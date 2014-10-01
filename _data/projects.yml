@@ -28,7 +28,7 @@
   description: "Custom Sass, object oriented framework to more quickly develop new features and implement ux improvements. It allowed us to switch away from foundation with which we needed to overwrite many styling elements."
   img: https://farm4.staticflickr.com/3859/15062533850_c03bbac2b1_z.jpg
   imgalt: Document listing all UI elements that informed the styleguide
-  url:
+  url: patternlibrary.html
 
 
 - name: IoT end user applications
@@ -44,7 +44,7 @@
   description: "As part of working at Xively, I also got involved with designing numerous end user applications for andoid, glass and webapps."
   img: https://farm4.staticflickr.com/3843/15249307812_5bf7a17d7d_z.jpg
   imgalt: alt
-  url:
+  url: iot-applications.html
 
 
 - name: Open Utility

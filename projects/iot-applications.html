@@ -1,0 +1,25 @@
+---
+layout: default
+title: Internet of Things Applications
+---
+<div class="content__center">
+	<section>
+		<h1 class="project__titles span8of8">Internet of Things end user applications</h1>
+	</section>
+	<section>
+	{% for application in site.data.applications %}
+			<div class="span3of8">
+				<img src="{{ application.img }}" width="100%" alt="{{ application.imgalt }}">
+			</div>
+			<div class="span3of8">
+				<h2>{{ application.name }}</h2>
+				<p>{{ application.description }}</p>
+				<ul>
+					<li>{{ application.achievements }}</li>
+				</ul>
+			</div>
+		{% endfor %}
+
+	</section>
+
+</div>
