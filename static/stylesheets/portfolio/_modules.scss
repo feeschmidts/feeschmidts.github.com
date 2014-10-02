@@ -213,3 +213,15 @@ blockquote {
   @include text(1, .5);
   padding-bottom: gap(0);
 }
+
+ul.tree {
+
+  li {
+    list-style-position: inside;
+    list-style-type: square;
+  }
+
+  ul {
+    margin-left: gap(1);
+  }
+}
