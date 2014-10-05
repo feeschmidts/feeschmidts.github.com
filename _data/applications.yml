@@ -4,7 +4,7 @@
   description: Checkit is a smart monitoring system by Elektron Technology for food safety and enforcing HACCP compliance. It entails a range of temperature sensors and dashboards to allow food workers to respond to alters.
   role: Work with Elektron as a usecase to inform the Xively product, whilst providing recommendations for the next phase of Checkit dashboards.
 
-- name: Xi Glass demo
+- name: Xi Glass Demo
   img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
   imgalt:
   description: Using google glass to control a xively connected tank for tradeshow demonstrations. The tank was able to refill and drain. The challenge of designing the glass ui for this demo was to communicate the current state of the tank and which actions were active.

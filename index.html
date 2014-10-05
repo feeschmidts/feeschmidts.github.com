@@ -44,7 +44,7 @@ title: Portfolio
     {% if method.datatags contains "Featured" %}
       <div class="span3of8 span4of4 span2of2">
         <div class="span2of8">
-          <img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}">
+          <a href="/methods#{{ method.id }}"><img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}"></a>
         </div>
         <div class="span5of8">
           <h2 class="method__title">{{ method.name }}</h2>

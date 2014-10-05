@@ -27,6 +27,7 @@ title: Methods
 
 
 {% for method in site.data.methods %}
+  <div id="{{ method.id }}">
     <div class="span3of8">
       <img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}">
     </div>
@@ -37,4 +38,5 @@ title: Methods
         <li>{{ method.details }}</li>
       </ul>
     </div>
+  </div>
   {% endfor %}

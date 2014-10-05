@@ -1,6 +1,7 @@
 - name: Brand Persona
   datatags: Featured
   excerpt: A Brand Persona defines how the brand values are, how it behaves and what it wants to express.
+  id: persona
   img: https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/xively/xively-a3a5ade94230669d1a0d82473b025c93.png
   imgalt: Screenshot of Brand Persona title page
   description: Defining the Cosm Brand Persona helped to align design and marketing teams and informed messaging frameworks, website copy and the look and feel of Xively. For the Brand Persona, we adapted MailChimps Brand Persona using the <a href="http://aarronwalter.com/design-personas/">Design Persona template by Aaren Walter.
@@ -22,6 +23,7 @@
 - name: Key Design Principles
   datatags: Featured
   excerpt: A small number of guiding principles to aid decision making.
+  id: principles
   img: http://farm8.staticflickr.com/7455/9444112210_bb15ce3017.jpg
   imgalt: Photo of the 5 Cosm Design Principles
   description: Design Principles were a great tool to align expectations within the design team and across management. They were generic enough, so they could at all times be aspired to or references when doing wireframing or detailed design work.
@@ -31,6 +33,7 @@
   datatags: Featured
   excerpt: Informs the design process and provides something to validate with real personas.
   img: http://farm8.staticflickr.com/7281/9441052885_7637a76ed7.jpg
+  id: personas
   imgalt: Close up of the 'Enterpreneur' persona card with other personas in the background
   description: This tool helped to discuss with other designers and product owners the Cosm user base. The personas easily let to target segments which greatly informed customer journeys mapping. The Proto-Personas were updated and validated through user interviews and offered a great collection mechanism for insights. Proto-personas are a variant of a typical persona, with the important difference that they are not initially based on user research. Instead, they originate from brainstorming workshops where company participants try to encapsulate the organisation’s beliefs (based on their domain expertise and gut feeling) about who is using their product or service and what is motivating them to do so.
 
@@ -44,6 +47,7 @@
 - name: Customer Journey Map
   datatags: Featured
   excerpt: Systematic approach to think about experience stages of different stakeholders using the same product.
+  id: journey
   img: http://farm6.staticflickr.com/5339/9414872739_7babc9a937_o.jpg
   imgalt: Close up of Customer Journey board
   description: The Customer Journey Map is a great tool to think through the entire experience flow from how do people hear about the service, how do they signup, what actions do they want to do, to how do we entice users to come back using the service? Along the y axis, the customer journey is split into key stages. For how to 'realise IoT on Cosm'. Along the y axis, the different target personas are listed, in our case. This tool helped to visualise and think through the journeys identifing milestones, expectations and behavioural triggers.
@@ -70,6 +74,7 @@
 - name: User Interviews
   datatags: Featured
   excerpt: Testing with wireframes or cards to understand people's expectations and sticky points.
+  id: interviews
   img: http://farm4.staticflickr.com/3708/9412910811_0431172d53.jpg
   imgalt: Closeup of a user annotating graph wireframes
   description: Remote or in office testing, talking people through wireframe flows. Do people understand what the key actions are? Are there any words which are confusing? Gathering User feedback by letting people annotate things they like, don't like or simply don't understand. This technique is great for specific context tests like when testing graphs and controls or testing a specific page.
@@ -89,6 +94,7 @@
 - name: Wireframing
   datatags: Featured
   excerpt: Sketching and wireframing with moqups, axure and html.
+  id: wireframing
   img: http://farm4.staticflickr.com/3750/9415675134_6131cda1e7_o.jpg
   imgalt: Wireframe User Run-throughs
   description:
@@ -104,6 +110,7 @@
 - name: Design Studio Workshop
   datatags: Featured
   excerpt: Internal workshop to get everyone's input for a new feature.
+  id: workshop
   img: http://farm8.staticflickr.com/7370/9415639698_11144f3239.jpg
   imgalt: Fee introducing the 'Design Studio Workshop' objective to developers
   description: "Jeff Gothelf in #LeanUX states 'XXX'. Xively incourages an open discussion culture, any question or aspects can be raised. Between design and development ...  Involving the developers in creative process to gather input."
@@ -155,3 +162,11 @@
   img: http://farm8.staticflickr.com/7382/9448597867_b254de7f31.jpg
   imgalt: Screenshot of Xively Optimizely Dashboard
   description: "A/B testing with Xively's visitor rate let's one determine a relatively statistically relevant winner variation within a short amount of time. We often let experiments run between one and three weeks. We've utilised Optimizely to test a variety of button labels and form fields to increase inquires and signups. Demonstrating benefits for frictioness forms. Sometimes Marketing requirements can be conflicting with User Experience, Optimizely allowed to gain evidence to remove form fields which sole purpose was 'collect everything possible from people to maybe utilize later for marketing'. Improving flows to drive inquiries For a long time, the Signup form didn't specify what type of account people are signing up for and didn't encourage finding out about pricing or commercial services. By adding a link and a small description up top, we increased commercial inquiries by 30%."
+
+- name: UI Styleguide
+  datatags: Featured
+  excerpt: UI framework with UI elements, UX guidelines and Brand Identity documentation.
+  id: framework
+  img: https://farm4.staticflickr.com/3932/15450235352_65b282a36d_b.jpg
+  imgalt: Screenshot of the Xively Pattern Library
+  description:

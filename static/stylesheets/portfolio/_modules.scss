@@ -204,6 +204,9 @@ blockquote {
   a {
     border-color: $white;
   }
+  a:hover {
+    border-color: $yellow;
+  }
   p {
     @include text(0.8);
   }
