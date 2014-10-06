@@ -42,7 +42,7 @@
   background: url(https://farm4.staticflickr.com/3931/15434125086_6bcef2c408_h.jpg) center center;
   width: 100%;
   height: gap(15);
-  padding-top: gap(3);
+  padding-top: gap(4);
 }
 
 .aboutme__hero {
@@ -234,4 +234,15 @@ ul.tree {
   ul {
     margin-left: gap(1);
   }
+}
+
+.method__list {
+  padding-bottom: gap(2);
+}
+
+.nav__page {
+  @include text(1.1);
+  padding-left: gap(1);
+  position: relative;
+  top: -7px;
 }
