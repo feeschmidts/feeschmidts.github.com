@@ -246,3 +246,9 @@ ul.tree {
   position: relative;
   top: -7px;
 }
+
+.footer-icons {
+  @include text(2);
+  color: $white;
+  float: right;
+}
