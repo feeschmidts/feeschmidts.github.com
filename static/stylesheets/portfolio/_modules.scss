@@ -238,6 +238,9 @@ ul.tree {
 
 .method__list {
   padding-bottom: gap(2);
+  p {
+    @include text(0.9, 1);
+  }
 }
 
 .nav__page {

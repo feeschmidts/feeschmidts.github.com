@@ -1,41 +1,39 @@
-- name: Checkit UX Recommendations
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: Checkit is a smart monitoring system by Elektron Technology for food safety and enforcing HACCP compliance. It entails a range of temperature sensors and dashboards to allow food workers to respond to alters.
-  role: Work with Elektron as a usecase to inform the Xively product, whilst providing recommendations for the next phase of Checkit dashboards.
-
-- name: Xi Glass Demo
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: Using google glass to control a xively connected tank for tradeshow demonstrations. The tank was able to refill and drain. The challenge of designing the glass ui for this demo was to communicate the current state of the tank and which actions were active.
-  role: This was a short project working with the Xively Services team, including a couple of iterations until the final implementation. My role was to define the flow and the different states as well as design the ui.
-  achievements:
-    - designing glass demo in short time-frame
-    - working across time zones
-    - tank demo was used as key demonstration at trade shows to communicate potential use cases for xively
-
-- name: Connected commercial printers
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: How to
-  role: Working with the Xi Services Team as Lead Designer, coordinating the work of visual designers and front-enders.
+- name: Home Energy Dashboard
+  img: https://farm3.staticflickr.com/2948/15272285539_7c303ed03e_z.jpg
+  imgalt: Realtime responsive webapp dashboard with D3 graphs and toggle to switch between cost and energy usage.
+  description: Simple responsive webapp dashboard which displays timeseries data stored on Xively. This dashboard was designed for CurrentCost to allow users to see their home energy usage more easily.
+  role: For this short project I was responsible for the ux and visual design.
 
 - name: Internet of School Things
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: Internet of School things is a … How to allow school kids to easily provide access to sensor data whilst
-  role: Defining early wireframes and flows.
-  achievements: Has been trialed in X schools
+  img: https://farm6.staticflickr.com/5598/15459248122_53610411ff_z.jpg
+  imgalt: Wireframe in context of a school environment.
+  description: Internet of School things is a project realised by a consortium of companies funded by TSB (Technology and Strategy Board). The aim of the project is to allow school kids to easily access sensor data and place sensors around their school for science and geographical curriculum tasks. The project is currently trailed across the UK.
+  role: The challenge of this project, on the one hand was the array of partners and technical solutions that would need to be combined into a single platform, on the other making the platform easy to use for teachers and children. I provided early wireframes but wasn't involved in the actual design of the platform.
   link: http://portal.iotschool.org/
+  linkname: View Portal
 
-- name: Salesforce call assistant dashboard
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: Providing a better UI integrated into salesforce to allow sales assistants to manage leads and follow up on new opportunities to meet their daily quota.
-  role: Working with the Xi Services team to provide UX and UI recommendations on how to improve the usability of one of their consulting deliverables. Time management to meet the allocated time of visual designer and checking meetings. As we were involved rather late in the project, I focused on only a handful of ux and ui recommendations that would add a maximum positive impact.
+- name: Smart Food Monitoring
+  img: https://farm6.staticflickr.com/5597/15272951037_fdb308c09e_z.jpg
+  imgalt: Wireframe in context of a kitchen environment where the interface acts as a conversation point between food workers and their managers.
+  description: One of Xively's customers provides a smart food safety system with hot and cold temperature sensors enforcing HACCP compliance. The product includes a range of dashboards for personas working in a commercial kitchen to act on the data and alerts.
+  role: I provided UX recommondations for the differnt dashboards and their use cases.
 
-- name: Current Cost Dashboard
-  img: https://farm6.staticflickr.com/5590/15048102369_3dd8eff4e4_o.png
-  imgalt:
-  description: Simple responsive webapp dashboard which let's users see their home energy usage when ever they wish.
-  role: ux and visual design
+- name: Xi Glass Tradeshow Demo
+  img: https://farm3.staticflickr.com/2948/15438688506_d046fd6a1d_z.jpg
+  imgalt: Person using google glass to remotely controll a tank.
+  description: Using google glass to control a xively connected water tank for tradeshow demonstrations. The tank was able to refill and drain. The challenge of designing the glass UI for this demo was to communicate the current state of the tank as well as which actions were active.
+  role: This was a short project working with the Xively Services team designing a couple of iterations until the final implementation. My role was to define the flow and the different states as well as design the ui.
+  link: http://www.youtube.com/watch?v=L5IJm8_xwiM
+  linkname: View Demo Video
+
+- name: Managing Commercial Printers
+  img: https://farm6.staticflickr.com/5599/15274964689_06554333ef_z.jpg
+  imgalt: Printer mobile UI in context of commercial printer environment.
+  description: A webapp allowing employees and managers to access printer statuses and alerts. Challenges included making it easy to manage printer settings (of which there were up to 50 settings) and setup notification preferences.
+  role: Working with the Xi Services Team I was responsible for designing the flows and wireframes according to requirements and database end points. I also coordinated the work of the visual designer to produce the final comps.
+
+- name: Salesforce Call Assistant Dashboard
+  img: https://farm3.staticflickr.com/2945/15273157497_87e20e4dc9_z.jpg
+  imgalt: Dashboard UI in context of a call center.
+  description: Salesforce integrated sale assistant dashboard which supports managing leads and following up on opportunities to meet daily quotas.
+  role: I was responsible for providing UX and UI recommondations towards the end of the project of this consulting deliverable. Challenges included prioritising UX recommondations so that they would have high impact but fairly easy to implement, as well as time management as a team working with the visual designer.
