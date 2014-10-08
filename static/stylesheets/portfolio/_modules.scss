@@ -222,7 +222,6 @@ ul.tree {
 }
 
 .project__overlay {
-  position: fixed;
   margin-top: gap(3);
   margin-left: gap(2);
   h2 {
@@ -243,4 +242,9 @@ ul.tree {
     float: left;
     clear: both;
   }
+}
+
+.project__overlay--fixed {
+  @extend .project__overlay;
+  position: fixed;
 }

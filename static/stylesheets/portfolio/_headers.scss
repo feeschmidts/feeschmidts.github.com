@@ -45,3 +45,21 @@
   height: gap(30);
   padding-top: gap(2);
 }
+
+.baobab-header {
+  background: url(https://farm6.staticflickr.com/5615/15292488710_4151a9dfa0_h.jpg) center center;
+  height: gap(30);
+  padding-top: gap(2);
+}
+
+.hero-mosaic {
+  padding-top: gap(2);
+  img {
+    padding: 0;
+    margin: 0;
+  }
+  .project__overlay {
+    position: relative;
+    top: -750px;
+  }
+}
