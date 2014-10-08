@@ -45,22 +45,7 @@
   img: https://farm4.staticflickr.com/3843/15249307812_5bf7a17d7d_z.jpg
   imgalt: alt
   url: iot-applications.html
-
-
-- name: Ashtag Website Redesign
-  datatags:
-    - Digital / Print Touchpoints
-    - User Experience
-    - HTML + CSS
-  categories:
-    - ui
-    - ux
-    - HTML + CSS
-  description: End October 2012 the Ash tree dieback disease gained lots of attention. Apps allow people to photograph trees and aid with identification. The ashtag.org is a gateway to download the apps but its redesign also makes it engaging to participate.
-  img: http://farm9.staticflickr.com/8208/8213746229_95aeb161a1.jpg
-  imgalt: Ashtag website
-  url: http://ashtag.org
-
+  
 
 - name: SnackStopper App
   datatags:
