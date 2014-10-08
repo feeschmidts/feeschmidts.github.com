@@ -1,0 +1,47 @@
+//  ---------------
+//  portfolio : headers
+//  ---------------
+
+//  fixed and relative page headers
+//  -------------------------------
+
+
+.header__hero {
+  background-image: url(http://farm4.staticflickr.com/3862/15245529122_9602820b67_o.jpg);
+  width: 100%;
+  height: 100%;
+
+  @include media-query ($min: $lap) {
+    height: gap(27);
+    background: url(http://farm4.staticflickr.com/3862/15245529122_9602820b67_o.jpg) no-repeat center center fixed;
+    z-index: -2;
+    padding-top: gap(1);
+  }
+}
+
+.patternlib-background {
+  background: url(https://farm4.staticflickr.com/3859/15062533850_f23a56d5af_o.jpg) center center;
+  width: 100%;
+  height: gap(35);
+  padding-top: gap(3);
+}
+
+.methods-background {
+  background: url(https://farm4.staticflickr.com/3931/15434125086_6bcef2c408_h.jpg) center center;
+  width: 100%;
+  height: gap(15);
+  padding-top: gap(4);
+}
+
+.aboutme__hero {
+  height: gap(25);
+  background: url(http://farm6.staticflickr.com/5569/15047715369_37e0f17b4b_h.jpg) no-repeat center center fixed;
+}
+
+
+.kinnalbook-header {
+  background: url(https://farm9.staticflickr.com/8170/7886663102_f965e4e9a1_o.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: gap(30);
+  padding-top: gap(2);
+}
