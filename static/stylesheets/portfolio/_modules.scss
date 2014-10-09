@@ -92,6 +92,23 @@ footer {
   padding: gap(1);
 }
 
+.footer__projects {
+  margin-top: gap(3);
+  background: $gray-light;
+  padding: gap(1.5);
+  .header__project {
+    @include text(1);
+  }
+}
+
+.footer__projects__title {
+  @include text(1.5,1);
+  font-style: italic;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 section {
   padding-top: gap(1);
 }
