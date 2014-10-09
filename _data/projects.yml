@@ -272,33 +272,33 @@
   url: energy-brand.html
 
 
-- name: Promoting local Crafts
-  datatags:
-    - Design for Service
-    - Design Research
-  categories:
-    - craft
-    - service
-    - marketing
-    - illustration
-    - tourism
-  description: "The 'Crafts of Monchique' Map makes it easy for tourists to arrange visits to makers' workshops to experience the production of honey, jam, Portuguese sausage or Medronho, the local fire water."
-  img: http://farm9.staticflickr.com/8437/7886895780_8127da6e0d_n.jpg
-  imgalt: Local carpenter in Monchique holding an almost finished Monchique wooden chair
-  url: monchique-tourism.html#Crafts
+# - name: Promoting local Crafts
+#   datatags:
+#     - Design for Service
+#     - Design Research
+#   categories:
+#     - craft
+#     - service
+#     - marketing
+#     - illustration
+#     - tourism
+#   description: "The 'Crafts of Monchique' Map makes it easy for tourists to arrange visits to makers' workshops to experience the production of honey, jam, Portuguese sausage or Medronho, the local fire water."
+#   img: http://farm9.staticflickr.com/8437/7886895780_8127da6e0d_n.jpg
+#   imgalt: Local carpenter in Monchique holding an almost finished Monchique wooden chair
+#   url: monchique-tourism.html#Crafts
 
 
-- name: MazePuzzle Box
-  datatags:
-    - User Experience
-  categories:
-    - ux
-    - advice
-    - experience
-  description: "Each box has a unique internal maze customised on mazepuzzlebox.co.uk, an invention by Matt Venn. I helped refine the website's UX and suggested improvements on the holistic experience when receiving and opening the box."
-  img: http://farm9.staticflickr.com/8302/7949499302_627c767262_n.jpg
-  imgalt: Maze Puzzle Box by Matt Venn - Box, website and videos
-  url: http://craftythingsmade.wordpress.com/2012/05/09/reflection-on-ux-input/
+# - name: MazePuzzle Box
+#   datatags:
+#     - User Experience
+#   categories:
+#     - ux
+#     - advice
+#     - experience
+#   description: "Each box has a unique internal maze customised on mazepuzzlebox.co.uk, an invention by Matt Venn. I helped refine the website's UX and suggested improvements on the holistic experience when receiving and opening the box."
+#   img: http://farm9.staticflickr.com/8302/7949499302_627c767262_n.jpg
+#   imgalt: Maze Puzzle Box by Matt Venn - Box, website and videos
+#   url: http://craftythingsmade.wordpress.com/2012/05/09/reflection-on-ux-input/
 
 
 # - name: Teaching Design
@@ -344,17 +344,17 @@
 #   url: http://craftythingsmade.wordpress.com/2012/06/26/scene-world-cover-19/
 
 
-- name: Currency Coasters
-  datatags:
-    - Digital / Print Touchpoints
-  categories:
-    - print
-    - pattern
-    - travel
-  description: "The 'Coast Guards' coasters are made from water-proof paper printed with patterns and motifs from money notes from around the globe. The coasters come in sets of 12 with architecture, animals, numbers and geometric patterns."
-  img: https://farm9.staticflickr.com/8178/7949501544_1b40cf49d6_c.jpg
-  imgalt: Coasters made from waterproof paper with patterns of money from around the world
-  url: http://craftythingsmade.wordpress.com/2012/02/07/coasters/
+# - name: Currency Coasters
+#   datatags:
+#     - Digital / Print Touchpoints
+#   categories:
+#     - print
+#     - pattern
+#     - travel
+#   description: "The 'Coast Guards' coasters are made from water-proof paper printed with patterns and motifs from money notes from around the globe. The coasters come in sets of 12 with architecture, animals, numbers and geometric patterns."
+#   img: https://farm9.staticflickr.com/8178/7949501544_1b40cf49d6_c.jpg
+#   imgalt: Coasters made from waterproof paper with patterns of money from around the world
+#   url: http://craftythingsmade.wordpress.com/2012/02/07/coasters/
 
 
 # - name: Stoke Newington Mercendise
