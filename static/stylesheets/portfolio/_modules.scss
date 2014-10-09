@@ -8,7 +8,7 @@
 .top-nav {
   height: 50px;
   width: 100%;
-  background-color: black;
+  background-color: $dark;
   position: absolute;
   padding: gap(0.5);
   color: $white;
@@ -87,8 +87,8 @@
 }
 
 footer {
-  background: $black;
-  color: $white;
+  background: $dark;
+  color: $gray-light;
   padding: gap(1);
 }
 
@@ -187,15 +187,8 @@ blockquote {
 }
 
 #methods {
-  background: #666666;
-  color: $white;
+  background: $gray-light;
   padding-bottom: gap(1);
-  a {
-    border-color: $white;
-  }
-  a:hover {
-    border-color: $yellow;
-  }
   p {
     @include text(0.8);
   }
@@ -234,7 +227,7 @@ ul.tree {
 
 .footer-icons {
   @include text(2);
-  color: $white;
+  color: $gray-light;
   float: right;
 }
 
