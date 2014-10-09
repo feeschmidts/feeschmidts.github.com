@@ -161,6 +161,9 @@ li {
   a {
     border-color: $white;
   }
+  a:hover {
+    border-color: $yellow;
+  }
 }
 
 .logo__nav {
