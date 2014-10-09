@@ -2,5 +2,10 @@
   <a href="/">
     <img class="logo__nav" src="/static/images/svg/feeschmidts.svg">
   </a>
-    <span class="nav__page">{{ page.title }}</span>
+    <span class="nav__page">
+      {% if page.category %}
+        <a href="/{{ page.category }}">{{ page.category }}</a> &gt;
+      {% endif %}
+      {{ page.title }}
+    </span>
 </div>
