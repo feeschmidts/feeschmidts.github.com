@@ -2,35 +2,17 @@
 layout: projects
 title: Xively Pattern Library
 category: Projects
+tag: css
 ---
 <div class="patternlib-background">
 </div>
 <div class="content__center">
 	<section>
-		<h1 class="project__titles span8of8">Xively Pattern Library</h1>
-		<p class="span8of8">
-		Simple Custom Framework ... Description ...
-		</p>
-	</section>
-	<section>
-		<h2 class="project__titles span8of8">Achievements</h2>
-		<p>name: Simple Scss Framework
-			img: An arrangement of pages
-			description: A lightweight framework that can be used for the xively platform as well as customer apps by simply applying a different theme. Both twitter bootstrap and foundation require a lot of overwriting of styles if you want to stray from its defaults. With more front end resource in house we decided to write our own framework, that we would know inside out and apply a ‘styleguide first’ principle to ensure ux and visual consistency throughout. As Xively works with many contractors, it became the go to place to download latest logos, brand guidelines or familiarise themselves with ux patterns or copy guidelines.
-			role: Overseeing and coordinating the development of the framework, contributing modules and writing a large proportion of the documentation.
-			achievements:
-				- reducing the front-end size from XXX to 82 bites which equates to the same size as typekit.
-				- large sections of the framework were adopted by other logmein products
-				- it significantly improved the speed of end-user app development from a front end perspective
-
-			details:
-				- Folder structure
-				- responsive grid behaviour
-				- layouts
-				- extends
-			</p>
+		<h1 class="project__titles span8of8">Pattern Library</h1>
+		<p>The Pattern library is a simple custom scss framework which includes all branding and identity guidelines. The framework was developed to allow dry css and quick prototyping across teams in different locations.</p>
 
 	</section>
+
 </div>
 <section>
 	<img src="https://farm3.staticflickr.com/2948/15232410159_2947511fd8_k.jpg" width="100%" alt="library pages assemble">
@@ -38,7 +20,7 @@ category: Projects
 
 <div class="content__center">
 	<section>
-		<h1 class="project__titles span8of8">Structure</h1>
+		<h1 class="project__titles span8of8">Structure &amp; Learning</h1>
 
 		<div class="span2of8">
 			<ul class="tree">
@@ -98,8 +80,65 @@ category: Projects
 			</ul>
 		</div>
 		<div class="span5of8">
-			<p class="span8of8">
-			Sass framework using object oriented css and BEM naming conventions. The Css is structure by
+			<h3>BEM</h3>
+	<p>BEM stands for Block, Element and Modifier and was termed by YANDEX. It’s not specific to CSS but it’s useful for building the structure of a CSS module (I prefer to call objects modules). It can help explain how to apply said structure of the module to a developer in the HTML without too much documentation since they can simply follow the convention. A quick example of module structure with BEM:</p>
+
+	<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.module-block</span> <span class="p">{}</span>
+		<span class="nc">.module__element</span> <span class="p">{}</span>
+		<span class="nc">.module__element--modifier</span> <span class="p">{}</span>
+			<span class="nc">.module__element__sub-element</span> <span class="p">{}</span>
+	<span class="nc">.module-block--modifier</span> <span class="p">{}</span></code></pre></div>
+
+	<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">”module-block”</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">”module__element”</span><span class="nt">&gt;</span>
+			<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">”module__element__sub-element”</span><span class="nt">&gt;&lt;/span&gt;</span>
+		<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+	<p>You can read more about <a href="http://bem.info/method/definitions">BEM</a> and you can read <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax">Harry Robert’s excellant post on the subject</a>.</p>
+
+	<h3>OOCSS</h3>
+	<p><a href="http://oocss.org">OOCSS</a> (Object Oriented CSS) is an ideology from <a href="http://www.stubbornella.org/content/">Nicole Sullivan</a> and it’s proponent is to break down styles into small reusable objects or modules. They should be able to be used in different places in an application by having their own concerns and therefore are not reliant on other styles or markup. Nicole Sullivan also has a post which includes a very useful <a href="http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code">example</a>.</p>
+
+	<h3>SMACSS</h3>
+	<p><a href="http://snook.ca">Jonathan Snook’s</a> <a href="https://smacss.com">SMACSS</a> (Scalable Modular Architecture for CSS) is an ideology of how to organise and compartmentalise our styles to make managing them easier. My architecture does differ somewhat to Jonathan’s but without SMACCS I don’t believe I would use the architecture I am outlining here.</p>
+
+	<p>I thought I would take the time to write about how I modularise my CSS and explain my reasons for certain choices and what the benefits of this approach are. Everything I speak about can be viewed in my framework <a href="https://github.com/adjohnston/freshly-squeezed">Freshly Squeezed</a> on GitHub, which I am currently developing.</p>
+
+	<h3>Folder Structure</h3>
+	<p>Here you can see the current folder structure that I follow. I use this approach as I believe it follows a good separation of concerns and is quite clear to a developer where specific styles will be.</p>
+
+	<p>┌ Utilities<br>
+	<span class="tab-1"></span>┌ Variables<br>
+	<span class="tab-1"></span>├ Functions<br>
+	<span class="tab-1"></span>├ Mixins<br>
+	<span class="tab-1"></span>└ Third-Party<br>
+	├ Generic<br>
+	├ Modules<br>
+	├ Singletons<br>
+	├ Patterns<br>
+	├ Themes<br>
+	└ manifest.scss</p>
+
+	<h4>Utilities</h4>
+	<p>Utilities contains a group of sub folders in which our framework can take advantage of. Firstly we have a Variables folder which contains all of our variables that we define. Following that we have our Functions folder which houses any custom Sass functions that may have been defined. We then have a mixins folder which has any custom Sass mixins and finally we have a Third Party folder which has any third party CSS or Sass partials, for example including Normalize or another CSS reset.</p>
+
+	<h4>Modules</h4>
+	<p>Modules are larger collections of styles that apply to several elements that can easily be grouped for a single purpose. These use the BEM naming convention.</p>
+
+	<h4>Singletons</h4>
+	<p>Singletons are small pieces of styling that do a single specific job. These tend to be used more widely across an app and are meant to be grouped with other singletons. However if you find that you are using several on several elements, this may mean you should create a new module.</p>
+
+	<h4>Patterns</h4>
+	<p>If you’re using a version of Sass that supports placeholders then this folder holds your placeholder partials. placeholders or what I prefer to call patterns contain blocks of styling that do not get output into your generated .css files but these single use blocks of styling can be @extended all across a framework.</p>
+
+	<h4>Themes</h4>
+	<p>The use of themes is to put groups of styling that may need to very specific. It wouldn’t necessarily fit into the rest of your framework. I like to think of them as custom styles that can take advantage of your framework’s variables, functions, mixins and patterns.</p>
+
+	<p>For larger projects that may require several changes, it is sometimes useful to use something of a mini architecture.</p>
+
+	<h3>Summary</h3>
+	<p>I hope this has given a good look into my choices and the reasons for them when deciding how to approach my own CSS architecture. I believe the above allows to write great CSS, file sizes low, keep bloat out and make maintenance easy.</p>
 			</p>
 			<ul>
 				<li></li>
