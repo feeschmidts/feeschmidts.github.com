@@ -173,7 +173,6 @@ li {
 .content__center {
   @include text(1, 1.25);
   z-index: 1;
-  padding-top: gap(2);
   max-width: gap(45);
   margin-right: auto;
   margin-left: auto;
@@ -187,6 +186,7 @@ li {
 blockquote {
   @include text(1.25, 1.5);
   font-weight: $font-weight-thin;
+  margin-top: gap(2);
 }
 
 #methods {
@@ -262,4 +262,85 @@ ul.tree {
 .project__overlay--fixed {
   @extend .project__overlay;
   position: fixed;
+}
+
+.video {
+  margin-top: gap(2);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.show-wheel {
+  background: $black;
+  padding-bottom: gap(1);
+  margin-top: gap(3);
+  margin-bottom: gap(3);
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.participants .item {
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding: 2px;
+  margin: 2px;
+}
+
+.participants .item:hover {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-ms-transform: scale(1);
+}
+
+.participants .description {
+	opacity: 0;
+	position: absolute;
+	top: 90px;
+	width: 150px;
+	margin-left: 5px;
+	text-align: left;
+	font-size: 20px;
+}
+.participants .item:hover .description {
+	opacity: 1;
+}
+
+.participants .item .description {
+	color: #FFF;
+	text-decoration:none;
+}
+
+.participants .item .description h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item .description p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item:hover .overlay {
+	opacity:1;
+}
+
+.overlay {
+	padding: 2px;
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:150px;
+	height:150px;
+	background:url('/static/images/overlay2.png');
+	opacity:0;
+}
+
+.project__logos {
+  margin-bottom: gap(2);
 }
