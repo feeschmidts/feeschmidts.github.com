@@ -17,7 +17,7 @@ title: Projects
         </a>
         <h2 class="header__project">{{ project.name }}</h2>
         <p class="small">{{ project.categories | join:' | ' }}</p>
-        <p>{{ project.description }}</p>
+        {{ project.description | markdownify }}
       </div>
   {% endfor %}
 
