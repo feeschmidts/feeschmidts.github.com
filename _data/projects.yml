@@ -11,11 +11,11 @@
     - user research
     - css
     - service
-  description: |
+  intro: |
     Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013.
     Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems.
-  img: http://farm6.staticflickr.com/5579/15248834942_2bc6f2490c_z.jpg
-  imgalt: From Cosm to Xively displaying Cosm's homepage and Xively's homepage side by side
+  introimg: http://farm6.staticflickr.com/5579/15248834942_2bc6f2490c_z.jpg
+  introimgalt: From Cosm to Xively displaying Cosm's homepage and Xively's homepage side by side
   url: xively.html
 
 
@@ -28,11 +28,11 @@
     - process improvements
     - css
     - object oriented css
-  description: |
+  intro: |
     Custom Sass, object oriented framework to more quickly develop new features and implement ux improvements.
     It allowed us to switch away from foundation with which we needed to overwrite many styling elements.
-  img: https://farm4.staticflickr.com/3859/15062533850_c03bbac2b1_z.jpg
-  imgalt: Document listing all UI elements that informed the styleguide
+  introimg: https://farm4.staticflickr.com/3859/15062533850_c03bbac2b1_z.jpg
+  introimgalt: Document listing all UI elements that informed the styleguide
   url: patternlibrary.html
 
 
@@ -46,10 +46,10 @@
     - consulting
     - ux
     - ui
-  description: |
+  intro: |
     As part of working at Xively, I also got involved with designing numerous end user applications for andoid, glass and webapps.
-  img: https://farm4.staticflickr.com/3936/15464636071_b4c1dc813a_c.jpg
-  imgalt: alt
+  introimg: https://farm4.staticflickr.com/3936/15464636071_b4c1dc813a_c.jpg
+  introimgalt: alt
   url: iot-applications.html
 
 
@@ -65,12 +65,12 @@
 #     - ui
 #     - testing
 #     - hackathon
-#   description: |
+#   intro: |
 #     The SnackStopper app helps people to snack less by collecting ‘Feel Good’ points and showing off to their colleagues.
 #     The app is an outcome of The Giving Lab Win8 Hackathon at Seren at the beginning of Sep 2012 and will soon
 #     be available in Windows Marketplace.
-#   img: https://farm9.staticflickr.com/8450/8063172110_c090796ff9_c.jpg
-#   imgalt: Snackstopper app - native Win8 app
+#   introimg: https://farm9.staticflickr.com/8450/8063172110_c090796ff9_c.jpg
+#   introimgalt: Snackstopper app - native Win8 app
 #   url: snackapp.html
 
 
@@ -85,11 +85,11 @@
 #     - HTML + CSS
 #     - photography
 #     - curation
-#   description: |
+#   intro: |
 #     Responsive website design to reveal stories and inspirations behind patterns and fabrics of the 'Under the Baobab'
 #     participatory art project which was exhibited throughout summer 2012 as part of the 'Festival of the World' at Southbank.
-#   img: https://farm9.staticflickr.com/8169/7894033280_ec37b1c9fe_c.jpg
-#   imgalt: Fabrics of the world' website viewed on desktop and mobile device
+#   introimg: https://farm9.staticflickr.com/8169/7894033280_ec37b1c9fe_c.jpg
+#   introimgalt: Fabrics of the world' website viewed on desktop and mobile device
 #   url: baobab.html
 
 
@@ -110,11 +110,11 @@
     - ux
     - community management
     - startup
-  description: |
+  intro: |
     London startup to save energy and carbon in workplaces through web behavioural change activities and visualisations.
     CarbonCulture was piloted with the Department of Energy and Climate Change in London and achieved a phenomenal 32% uptake.
-  img: https://farm9.staticflickr.com/8178/7894874134_6ef717fa9e_c.jpg
-  imgalt: CarbonCulture Platform
+  introimg: https://farm9.staticflickr.com/8178/7894874134_6ef717fa9e_c.jpg
+  introimgalt: CarbonCulture Platform
   url: carbonculture.html
 
 
@@ -129,11 +129,11 @@
 #     - hackathon
 #     - nature
 #     - teamwork
-#   description: |
+#   intro: |
 #     Good for Nothing Wildthing outcome: A crowd sourced nature hunt app to get kids and parents playing and discovering nature.
 #     As creatures are found skills are gained and hunts are unlocked. There are five creatures to a hunt.
-#   img: https://farm9.staticflickr.com/8440/7895090718_747457a27f_c.jpg
-#   imgalt: A participant of Wildthing is testing out the spotted app in Global Generation's herbgarden on her iphone
+#   introimg: https://farm9.staticflickr.com/8440/7895090718_747457a27f_c.jpg
+#   introimgalt: A participant of Wildthing is testing out the spotted app in Global Generation's herbgarden on her iphone
 #   url: spotted.html
 
 
@@ -148,11 +148,11 @@
     - open source
     - marketing
     - promotion
-  description: |
+  intro: |
     Five Maps of Monchique freely available online. Easily printable and distributed by guest houses to inform visitors in Monchique
     of unique walks, the best craft shops and where to find local makers and the tastiest bites.
-  img: https://farm9.staticflickr.com/8300/7886889044_28304a4d18_c.jpg
-  imgalt: Stack of maps for Monchique
+  introimg: https://farm9.staticflickr.com/8300/7886889044_28304a4d18_c.jpg
+  introimgalt: Stack of maps for Monchique
   url: monchique-maps.html
 
 
@@ -172,12 +172,12 @@
     - maps
     - sustainable tourism
     - craft
-  description: |
+  intro: |
     Week long exhibition to showcase ideas on how to better promote local Monchique products and tourist offers.
     The projects and findings are the outcome of collaboration with the local council, local businesses and interviewing visitors
     to Monchique.
-  img: https://farm9.staticflickr.com/8179/7886900382_5a4a5db24c_c.jpg
-  imgalt: Visitors at the Novas Direcoes Exhibition
+  introimg: https://farm9.staticflickr.com/8179/7886900382_5a4a5db24c_c.jpg
+  introimgalt: Visitors at the Novas Direcoes Exhibition
   url: monchique-tourism.html
 
 
@@ -195,12 +195,12 @@
     - cocreation
     - codevelopment
     - social enterprise
-  description: |
+  intro: |
     Getgo Glasgow is a social enterprise co-created with GSA MEDes and Innovation students and the Wyndford community in Glasgow.
     It was the national winner of the Sustain Our Nation Competition in 2010 winning £20,000 for the community to run intergenerational
     activities.
-  img: https://farm9.staticflickr.com/8449/7894501392_33003a5670_c.jpg
-  imgalt: Getgo Glasgow co-creation workshop brainstorming and storyboarding ideas
+  introimg: https://farm9.staticflickr.com/8449/7894501392_33003a5670_c.jpg
+  introimgalt: Getgo Glasgow co-creation workshop brainstorming and storyboarding ideas
   url: getgo-glasgow.html
 
 
@@ -220,12 +220,12 @@
     - thesis
     - book
     - social enterprise
-  description: |
+  intro: |
       With the launch of the 'big society' in 2010 communities are required to become autonomous independent from community
       workers and resources. The Social Innovation Toolkit explores the tools and a web platform connecting these autonomous
       communities supporting each other.
-  img: https://farm9.staticflickr.com/8320/7893850624_ef6638104a_c.jpg
-  imgalt: First complete iteration of the Social Innovation Toolkit
+  introimg: https://farm9.staticflickr.com/8320/7893850624_ef6638104a_c.jpg
+  introimgalt: First complete iteration of the Social Innovation Toolkit
   url: activy.html
 
 
@@ -240,11 +240,11 @@
     - craft
     - documentation
     - video
-  description: |
+  intro: |
     The Kinnal Craft Book is an illustrated and laid out coffee table book documenting the Kinnal craft's process and showcasing
     the many artful photographs taken of India and its people during the Kinnal Craft project.
-  img: https://farm9.staticflickr.com/8170/7886663102_291cb8e93a_c.jpg
-  imgalt: Photo of Kinnal Book spread of the new products created
+  introimg: https://farm9.staticflickr.com/8170/7886663102_291cb8e93a_c.jpg
+  introimgalt: Photo of Kinnal Book spread of the new products created
   url: kinnal-craft-book.html
 
 
@@ -261,11 +261,11 @@
     - india
     - documentation
     - video
-  description: |
+  intro: |
     Craft development project in Kinnal, India. A nine week workshop to co-learn with local craft trainees, innovate products and
     establish routes for distribution in collaboration with the regional craft councils and create a sustainable network post workshop.
-  img: https://farm9.staticflickr.com/8446/7886650344_25b29f0d81_c.jpg
-  imgalt: hoto of a typical workshop scene at Kinnal. All students are sitting on the floor of the workshop holding working on their pieces securing it with their feet.
+  introimg: https://farm9.staticflickr.com/8446/7886650344_25b29f0d81_c.jpg
+  introimgalt: hoto of a typical workshop scene at Kinnal. All students are sitting on the floor of the workshop holding working on their pieces securing it with their feet.
   url: kinnal-craft.html
 
 
@@ -282,11 +282,11 @@
     - service
     - presentation
     - book
-  description: |
+  intro: |
     Iconic Service Design Project - co-creating a service with street prostitutes and supporting organisations in creating new futures
     for these women and their peers. Developed for and with the Tippelzone in Eindhoven, in collaboration with T-huis and Eindhoven council.
-  img: https://farm9.staticflickr.com/8180/7905632046_8689172cf4_c.jpg
-  imgalt: Levenskracht logo and year book magazine
+  introimg: https://farm9.staticflickr.com/8180/7905632046_8689172cf4_c.jpg
+  introimgalt: Levenskracht logo and year book magazine
   url: levenskracht.html
 
 
@@ -300,11 +300,11 @@
     - smart future
     - branding
     - presentation
-  description: |
+  intro: |
     Corporate ethnographic research for an energy conglomerate operating across India, UK and Sweden to determine a strategy for brand
     transition and internal and external communication.
-  img: https://farm9.staticflickr.com/8459/7894289174_d0c63744da_c.jpg
-  imgalt: Picture of conversation starter and mapping tools for ethnographic research
+  introimg: https://farm9.staticflickr.com/8459/7894289174_d0c63744da_c.jpg
+  introimgalt: Picture of conversation starter and mapping tools for ethnographic research
   url: energy-brand.html
 
 
@@ -318,11 +318,11 @@
 #     - marketing
 #     - illustration
 #     - tourism
-#   description: |
+#   intro: |
 #     The 'Crafts of Monchique' Map makes it easy for tourists to arrange visits to makers' workshops to experience the production of
 #     honey, jam, Portuguese sausage or Medronho, the local fire water.
-#   img: http://farm9.staticflickr.com/8437/7886895780_8127da6e0d_n.jpg
-#   imgalt: Local carpenter in Monchique holding an almost finished Monchique wooden chair
+#   introimg: http://farm9.staticflickr.com/8437/7886895780_8127da6e0d_n.jpg
+#   introimgalt: Local carpenter in Monchique holding an almost finished Monchique wooden chair
 #   url: monchique-tourism.html#Crafts
 
 
@@ -333,11 +333,11 @@
 #     - ux
 #     - advice
 #     - experience
-#   description: |
+#   intro: |
 #      Each box has a unique internal maze customised on mazepuzzlebox.co.uk, an invention by Matt Venn. I helped refine the
 #      website's UX and suggested improvements on the holistic experience when receiving and opening the box.
-#   img: http://farm9.staticflickr.com/8302/7949499302_627c767262_n.jpg
-#   imgalt: Maze Puzzle Box by Matt Venn - Box, website and videos
+#   introimg: http://farm9.staticflickr.com/8302/7949499302_627c767262_n.jpg
+#   introimgalt: Maze Puzzle Box by Matt Venn - Box, website and videos
 #   url: http://craftythingsmade.wordpress.com/2012/05/09/reflection-on-ux-input/
 
 
@@ -348,11 +348,11 @@
 #     - kids
 #     - teaching
 #     - fun
-#   description: |
+#   intro: |
 #     The GOALS project is a Glasgow initiative encouraging students to teach their discipline in primary schools to act as role models.
 #     As a team of two we taught four sessions encouraging the students to think about material properties and their target market.
-#   img: http://farm9.staticflickr.com/8440/7948854554_3c88619fd0_n.jpg
-#   imgalt: year 8 school group
+#   introimg: http://farm9.staticflickr.com/8440/7948854554_3c88619fd0_n.jpg
+#   introimgalt: year 8 school group
 #   url: http://craftythingsmade.wordpress.com/2012/05/09/reflection-on-ux-input/
 
 
@@ -363,11 +363,11 @@
 #   categories:
 #     - kids
 #     - filming
-#   description: |
+#   intro: |
 #     German primary schools have 'project week' once a year. I assisted and helped the kids to create stage props and masks.
 #     I also documented the process and created a DVD of the footage.
-#   img: https://farm9.staticflickr.com/8460/7949227006_341098bb23_c.jpg
-#   imgalt: German class grade 3 performing 'the fox and the seven goats'
+#   introimg: https://farm9.staticflickr.com/8460/7949227006_341098bb23_c.jpg
+#   introimgalt: German class grade 3 performing 'the fox and the seven goats'
 #   url:
 
 
@@ -382,11 +382,11 @@
 #     - advice
 #     - css
 #     - html
-#   description: |
+#   intro: |
 #     The Scene World Magazine is a quarterly C64 disk magazine (Commodore 64). It's run by an international group in six countries.
 #     Now in it's 20th edition. I redesigned the magazine's website to make it fit for the here and now.
-#   img: http://farm9.staticflickr.com/8040/7949576592_3c1daeea57_n.jpg
-#   imgalt: Sceneworld cover and website before and after
+#   introimg: http://farm9.staticflickr.com/8040/7949576592_3c1daeea57_n.jpg
+#   introimgalt: Sceneworld cover and website before and after
 #   url: http://craftythingsmade.wordpress.com/2012/06/26/scene-world-cover-19/
 
 
@@ -397,11 +397,11 @@
 #     - print
 #     - pattern
 #     - travel
-#   description: |
+#   intro: |
 #     The 'Coast Guards' coasters are made from water-proof paper printed with patterns and motifs from money notes from around the globe.
 #     The coasters come in sets of 12 with architecture, animals, numbers and geometric patterns.
-#   img: https://farm9.staticflickr.com/8178/7949501544_1b40cf49d6_c.jpg
-#   imgalt: Coasters made from waterproof paper with patterns of money from around the world
+#   introimg: https://farm9.staticflickr.com/8178/7949501544_1b40cf49d6_c.jpg
+#   introimgalt: Coasters made from waterproof paper with patterns of money from around the world
 #   url: http://craftythingsmade.wordpress.com/2012/02/07/coasters/
 
 
@@ -412,11 +412,11 @@
 #     - print
 #     - pattern
 #     - illustration
-#   description: |
+#   intro: |
 #     The collection 'Drawings of Stoke Newington' was produced as part of the 'February 28 drawings challenge' on facebook.
 #     From these, posters, prints and cards were made, distributed and sold in local shops.
-#   img: https://farm9.staticflickr.com/8061/8246023116_dcf146c426_c.jpg
-#   imgalt: Drawings of houses of Stoke Newington worked into Cards, Tea Towels and Posters
+#   introimg: https://farm9.staticflickr.com/8061/8246023116_dcf146c426_c.jpg
+#   introimgalt: Drawings of houses of Stoke Newington worked into Cards, Tea Towels and Posters
 #   url: http://craftythingsmade.wordpress.com/2012/02/29/29-days-of-stoke-newington/
 
 
@@ -427,9 +427,9 @@
 #     - print
 #     - jewellery
 #     - travel
-#   description: |
+#   intro: |
 #     Earrings made from patterns collected in Portugal. The patterns are of iconic Portuguese tiles, textures and city scenes in
 #     Lisbon, Monchique and Sintra.
-#   img: http://farm9.staticflickr.com/8310/7905725870_4291b4680f_n.jpg
-#   imgalt: Stud earrings with tile patterned squares
+#   introimg: http://farm9.staticflickr.com/8310/7905725870_4291b4680f_n.jpg
+#   introimgalt: Stud earrings with tile patterned squares
 #   url: http://craftythingsmade.wordpress.com/2012/03/05/earrings/
