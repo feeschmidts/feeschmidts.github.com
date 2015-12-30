@@ -7,6 +7,7 @@ To get it to run on vagrant
     vagrant ssh
     cd /vagrant
     jekyll serve --force_polling //jekyll autogeneration does not work inside vagrant without --force_polling
+    jekyll serve --force_polling --.0.0.0 // to set localhost:4000
 
 In browser go to 'localhost:4000' to view site
 
@@ -26,21 +27,3 @@ When trying to provision vagrant you might come across the following errors:
 2 When running 'vagrant up' you might encounter "The SSH command responded with a non-zero exit status".
 This means that there are several vagrant instances running. Go to your virtual machine manager and halt/ shutdown any machines that are running.
 You should only work on one machine at a time so run 'vagrant halt' after each session.
-
-
------ updating -----
-
-To update the basic framework freshly-squeezed
-    cd into repositry
-    bower update
-
-
-To get bower to work on vagrant by reinstalling a different node version.
-
-    sudo add-apt-repository ppa:chris-lea/node.js
-    sudo apt-get update
-    sudo apt-get -y install nodejs // if not run previously
-    sudo apt-get install git-core
-
-To install a specific bower repo
-    node_modules/.bin/bower install [package name]
