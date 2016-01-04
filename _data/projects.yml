@@ -17,7 +17,25 @@
   introimg: http://farm6.staticflickr.com/5579/15248834942_2bc6f2490c_z.jpg
   introimgalt: From Cosm to Xively displaying Cosm's homepage and Xively's homepage side by side
   url: xively.html
+  goal: Designing a seamless development experience for the Internet of Things
+  description: |
+    Xively, a division by LogMeIn (NASDAQ: LOGMI), is the first commercial Internet of Things platform which launched May 2013.
+    For the first year, as a team of two I was responsible for working with stakeholders validating the developer experience and
+    defining and validating the user experience as well as leading a small team - made up of two front-end developers and a visual
+    designer - to produce new features, implement UX improvements and fix QA bugs. I was the main interface between business
+    requirements and translating these into user facing features. Part of that meant translating rather fuzzy requirements into
+    first version wireframes to then in tandem with business stakeholders (often based remotely) and through discussions with the
+    London backend team to agree on the feature set. I coordinated my team's workload and planned sprints using scrum and agile
+    methodologies to ensure lean high quality deliverables.
 
+    I have also been working with several Xively customers who use the platform as means to deliver end user services of a connected
+    product to their users, by providing UX guidance or even full fleshed hi-fidelity wireframes based on insights gathered through
+    workshops with key stakeholders. These applications were designed as web apps or to be used on google glass.
+  achievements: |
+    ###Complete Redesign and Rebranding in only four months
+    - Restructuring the <em>Web app</em> to make the developer experience more seamless. <em>The marketing pages</em> and its navigation were redesigned from scratch with high focus on narrative flow to be more focused on business. The <em>Developer Center</em> expanded considerably, requiring a scalable structure to ensure an intuitive navigation through resources and api docs.
+    - Increasing Page views by 162%</h3><p>On May 14th 2013 Xively launched with a refined Developer Experience and new Developer Resources including tutorials, wrapper libabries and plug-in services. Xively gained great media attention with ten major tech companies featuring Xively. In the first week, views were increased by 162% raising the average visitor rate to 50,000 a week.
+    - Doubling daily SignUp Rate Since launch Xively is averaging 70 developer signups per day. <a href="http://gigaom.com/2013/08/05/when-it-comes-to-the-internet-of-things-europes-holding-its-own/">(source: GigaOm)
 
 - name: Simple Sass Framework
   datatags:

@@ -11,7 +11,7 @@ author :
 # Set 'provider' to false to turn commenting off globally.
 #
   comments :
-  provider : disqus
+  provider : false
   disqus :
     short_name : jekyllbootstrap
   livefyre :
@@ -35,3 +35,7 @@ analytics :
 
 sass:
     sass_dir: static/stylesheets
+
+collections:
+  my_collection:
+    output: true
