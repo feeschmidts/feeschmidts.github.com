@@ -1,3 +1,31 @@
+- name: Commonplace
+  datatags:
+    - Featured
+    - User Experience
+    - HTML + CSS
+  categories:
+    - design
+    - usability
+  intro: |
+    Transforming the way councils and property developers engage with the public.
+  introimg: https://farm8.staticflickr.com/7498/16051533349_398458aa4d_o.png
+  introimgalt: Photo of a person holding a smart phone with a Commonplace map
+  url: commonplace.html
+  goal: Transforming the way councils and property developers engage with the public
+  description: |
+    Responsibilities at Commonplace
+    Prototyping, testing and designing all features of the Commonplace platform.
+    Defining tickets and producing all assets (css, html, flows) and working with developers on production.
+    Css styling and modifying react components and tests.
+    QA for all customer and user facing features.
+    Producing marketing and brand collateral for print and digital communications.
+    Supporting and advising customers on their digital public engagement including Waltham Forest on Mini-holland programme, Newcastle City Council, Bristol City Council, Sustrans, HS2, NHS North West London, Grainger, Grosvenor and TRL for the GATEway autonomous car trials in Greenwich.
+  achievements: |
+    Iterating and evolving the Commonplace platform and its tools - 80+ customers, 180 Commonplaces internationally, 30K users, 55K comments, 45K agreements.
+    Making Commonplace GDPR ready.
+    AA accessibility accreditation.
+    Award for best stakeholder engagement 2017 planning awards for the Commonplace Mini-holland programme with Waltham Forest.
+
 - name: Xively IoT Platform
   datatags:
     - Featured
@@ -110,7 +138,6 @@
 - name: CarbonCulture
   datatags:
     - Digital / Print Touchpoints
-    - Featured
     - User Experience
     - Design Research
     - Design for Service
