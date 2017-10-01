@@ -17,10 +17,10 @@
 
 .intro {
   @include text(2,2);
-  font-weight: $font-weight-bold;
-  color: $white;
+  font-weight: $font-weight-bold;;
   padding-top: gap(1.5);
   text-align: center;
+  font-weight: 700;
 }
 
 #tag-buttons {
