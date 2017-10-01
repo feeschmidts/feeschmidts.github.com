@@ -37,38 +37,34 @@
     - Increasing Page views by 162%</h3><p>On May 14th 2013 Xively launched with a refined Developer Experience and new Developer Resources including tutorials, wrapper libabries and plug-in services. Xively gained great media attention with ten major tech companies featuring Xively. In the first week, views were increased by 162% raising the average visitor rate to 50,000 a week.
     - Doubling daily SignUp Rate Since launch Xively is averaging 70 developer signups per day. <a href="http://gigaom.com/2013/08/05/when-it-comes-to-the-internet-of-things-europes-holding-its-own/">(source: GigaOm)
 
-- name: Simple Sass Framework
-  datatags:
-    - Featured
-    - Documentation
-    - HTML + CSS
-  categories:
-    - process improvements
-    - css
-    - object oriented css
-  intro: |
-    Custom Sass, object oriented framework to more quickly develop new features and implement ux improvements.
-    It allowed us to switch away from foundation with which we needed to overwrite many styling elements.
-  introimg: https://farm4.staticflickr.com/3859/15062533850_c03bbac2b1_z.jpg
-  introimgalt: Document listing all UI elements that informed the styleguide
-  url: patternlibrary.html
+# - name: Simple Sass Framework
+#   datatags:
+#     - HTML + CSS
+#   categories:
+#     - process improvements
+#     - css
+#     - object oriented css
+#   intro: |
+#     Custom Sass, object oriented framework to more quickly develop new features and implement ux improvements.
+#     It allowed us to switch away from foundation with which we needed to overwrite many styling elements.
+#   introimg: https://farm4.staticflickr.com/3859/15062533850_c03bbac2b1_z.jpg
+#   introimgalt: Document listing all UI elements that informed the styleguide
+#   url: patternlibrary.html
 
 
-- name: IoT end user applications
-  datatags:
-    - Featured
-    - ux
-    - wireframes
-    - consulting
-  categories:
-    - consulting
-    - ux
-    - ui
-  intro: |
-    As part of working at Xively, I also got involved with designing numerous end user applications for andoid, glass and webapps.
-  introimg: https://farm4.staticflickr.com/3936/15464636071_b4c1dc813a_c.jpg
-  introimgalt: alt
-  url: iot-applications.html
+# - name: IoT end user applications
+#   datatags:
+#     - ux
+#     - consulting
+#   categories:
+#     - consulting
+#     - ux
+#     - ui
+#   intro: |
+#     As part of working at Xively, I also got involved with designing numerous end user applications for andoid, glass and webapps.
+#   introimg: https://farm4.staticflickr.com/3936/15464636071_b4c1dc813a_c.jpg
+#   introimgalt: alt
+#   url: iot-applications.html
 
 
 # - name: SnackStopper App
