@@ -6,6 +6,7 @@
   categories:
     - design
     - usability
+    - font end
   intro: |
     Transforming the way councils and property developers engage with the public.
   introimg: https://farm8.staticflickr.com/7498/16051533349_398458aa4d_o.png
@@ -34,11 +35,7 @@
     - HTML + CSS
   categories:
     - ux
-    - graphics
-    - testing
     - user research
-    - css
-    - service
   intro: |
     Cosm, formerly known as Pachube, relaunched as Xively (a division by LogMeIn) in May 2013.
     Xively is a scalable IoT platform providing a developer experience to debug and manage connected product systems.
@@ -147,11 +144,9 @@
     - Design Strategy
     - Curation / Editing
   categories:
-    - interviews
-    - user-centred
     - ux
+    - prototyping
     - community management
-    - startup
   intro: |
     London startup to save energy and carbon in workplaces through web behavioural change activities and visualisations.
     CarbonCulture was piloted with the Department of Energy and Climate Change in London and achieved a phenomenal 32% uptake.
@@ -189,8 +184,7 @@
   categories:
     - maps
     - open source
-    - marketing
-    - promotion
+    - communication
   intro: |
     Five Maps of Monchique freely available online. Easily printable and distributed by guest houses to inform visitors in Monchique
     of unique walks, the best craft shops and where to find local makers and the tastiest bites.
@@ -210,11 +204,7 @@
     - Documentation
   categories:
     - exhibition
-    - service
-    - products
-    - maps
     - sustainable tourism
-    - craft
   intro: |
     Week long exhibition to showcase ideas on how to better promote local Monchique products and tourist offers.
     The projects and findings are the outcome of collaboration with the local council, local businesses and interviewing visitors
@@ -233,10 +223,7 @@
     - CoCreation
     - Facilitation / Teaching
   categories:
-    - Fuzzy front end
-    - think-tank
     - cocreation
-    - codevelopment
     - social enterprise
   intro: |
     Getgo Glasgow is a social enterprise co-created with GSA MEDes and Innovation students and the Wyndford community in Glasgow.
@@ -258,11 +245,7 @@
     - Digital / Print Touchpoints
   categories:
     - research
-    - workshops
-    - prototypes
-    - thesis
-    - book
-    - social enterprise
+    - prototyping
   intro: |
       With the launch of the 'big society' in 2010 communities are required to become autonomous independent from community
       workers and resources. The Social Innovation Toolkit explores the tools and a web platform connecting these autonomous
@@ -278,11 +261,9 @@
     - Curation / Editing
     - Documentation
   categories:
-    - layout
-    - illustration
     - craft
+    - illustration
     - documentation
-    - video
   intro: |
     The Kinnal Craft Book is an illustrated and laid out coffee table book documenting the Kinnal craft's process and showcasing
     the many artful photographs taken of India and its people during the Kinnal Craft project.
@@ -299,11 +280,8 @@
     - CoCreation
   categories:
     - craft
-    - workshop
     - innovation
-    - india
     - documentation
-    - video
   intro: |
     Craft development project in Kinnal, India. A nine week workshop to co-learn with local craft trainees, innovate products and
     establish routes for distribution in collaboration with the regional craft councils and create a sustainable network post workshop.
@@ -321,10 +299,7 @@
     - CoCreation
   categories:
     - research
-    - social
-    - service
-    - presentation
-    - book
+    - service design
   intro: |
     Iconic Service Design Project - co-creating a service with street prostitutes and supporting organisations in creating new futures
     for these women and their peers. Developed for and with the Tippelzone in Eindhoven, in collaboration with T-huis and Eindhoven council.
@@ -342,7 +317,6 @@
     - research
     - smart future
     - branding
-    - presentation
   intro: |
     Corporate ethnographic research for an energy conglomerate operating across India, UK and Sweden to determine a strategy for brand
     transition and internal and external communication.
