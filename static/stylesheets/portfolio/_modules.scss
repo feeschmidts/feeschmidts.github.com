@@ -39,7 +39,8 @@
   border: 1px solid $black;
   padding: gap(.5);
 }
-.btn:hover {
+.btn:hover,
+.btn.active {
     background: $yellow;
     color: $white;
     border-color: $yellow;
@@ -48,10 +49,6 @@
 .btn {
   margin-right: gap(1);
   margin-bottom: gap(.5);
-}
-
-.btn.active {
-  background-color: $yellow;
 }
 
 //  Color page
