@@ -7,16 +7,13 @@
 
 
 .header__hero {
-  background-image: url(https://lh3.googleusercontent.com/yGEhDQZHBT6GtFg-Po320G0lBqxefhV1qFB06SItsEo0eBkQ6LoPUcw_rHCymNQPQRHTJGmmYkLm0F9fePY89kvGizEoZPskABpXruAXC0HwKpAu_IWB6xrk2aohW0IBKY8N8jxRO9mCivYl9KmhOhYVWDflF9yqGxJIYERKuHpzykYS3VBdXHSfRCJUi3A4Ad_HJ8cQ7Pd6-DeG1EvwUb_i4LLut6wqUu4_f73qzRmrkLW1iCrl7pjwvgYSHZ6c_t6M9guj8ZO6FunfFRP3NvqFTHMVY4o6_SJDV-z376t3elyBrdcBCw8qGoLT3KnGn8-CAwC9jSH039-rE6IHeFO-Bh44xW3TKSrnpR4z8qoeF-50Zq_-4nLEABD3ZWPk-0XNam2aPoN37y41_QXXVl8ce-iEhRKFO6GlfJdE5DhIFq5289u_x5eIrg6DBRs_revQHH0VIGik7Q-oyczv3MNIgfQ9AIctXfyaxjrg63lPt8QULEcABQsBUjHODoHsKSBMDIUrSLh4NaLlZVdXVcggUFF4k0VmAkqacbrZCRyUlk0EYhsvlFJImJIfSXf6U_wi2S2IZLNAWuNjsvN7aveDDLJ5SFxBcA5QUwRYCSg=w1600-h1066-no);
-  width: 100%;
-  height: 100%;
+  background: url(https://lh3.googleusercontent.com/yGEhDQZHBT6GtFg-Po320G0lBqxefhV1qFB06SItsEo0eBkQ6LoPUcw_rHCymNQPQRHTJGmmYkLm0F9fePY89kvGizEoZPskABpXruAXC0HwKpAu_IWB6xrk2aohW0IBKY8N8jxRO9mCivYl9KmhOhYVWDflF9yqGxJIYERKuHpzykYS3VBdXHSfRCJUi3A4Ad_HJ8cQ7Pd6-DeG1EvwUb_i4LLut6wqUu4_f73qzRmrkLW1iCrl7pjwvgYSHZ6c_t6M9guj8ZO6FunfFRP3NvqFTHMVY4o6_SJDV-z376t3elyBrdcBCw8qGoLT3KnGn8-CAwC9jSH039-rE6IHeFO-Bh44xW3TKSrnpR4z8qoeF-50Zq_-4nLEABD3ZWPk-0XNam2aPoN37y41_QXXVl8ce-iEhRKFO6GlfJdE5DhIFq5289u_x5eIrg6DBRs_revQHH0VIGik7Q-oyczv3MNIgfQ9AIctXfyaxjrg63lPt8QULEcABQsBUjHODoHsKSBMDIUrSLh4NaLlZVdXVcggUFF4k0VmAkqacbrZCRyUlk0EYhsvlFJImJIfSXf6U_wi2S2IZLNAWuNjsvN7aveDDLJ5SFxBcA5QUwRYCSg=w1600-h1066-no) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-top: gap(1);
-
-  @include media-query ($min: $lap) {
-    height: gap(27);
-    background: url(https://lh3.googleusercontent.com/yGEhDQZHBT6GtFg-Po320G0lBqxefhV1qFB06SItsEo0eBkQ6LoPUcw_rHCymNQPQRHTJGmmYkLm0F9fePY89kvGizEoZPskABpXruAXC0HwKpAu_IWB6xrk2aohW0IBKY8N8jxRO9mCivYl9KmhOhYVWDflF9yqGxJIYERKuHpzykYS3VBdXHSfRCJUi3A4Ad_HJ8cQ7Pd6-DeG1EvwUb_i4LLut6wqUu4_f73qzRmrkLW1iCrl7pjwvgYSHZ6c_t6M9guj8ZO6FunfFRP3NvqFTHMVY4o6_SJDV-z376t3elyBrdcBCw8qGoLT3KnGn8-CAwC9jSH039-rE6IHeFO-Bh44xW3TKSrnpR4z8qoeF-50Zq_-4nLEABD3ZWPk-0XNam2aPoN37y41_QXXVl8ce-iEhRKFO6GlfJdE5DhIFq5289u_x5eIrg6DBRs_revQHH0VIGik7Q-oyczv3MNIgfQ9AIctXfyaxjrg63lPt8QULEcABQsBUjHODoHsKSBMDIUrSLh4NaLlZVdXVcggUFF4k0VmAkqacbrZCRyUlk0EYhsvlFJImJIfSXf6U_wi2S2IZLNAWuNjsvN7aveDDLJ5SFxBcA5QUwRYCSg=w1600-h1066-no) no-repeat center center fixed;
-    z-index: -2;
-  }
+  z-index: -2;
 }
 
 .patternlib-background {
