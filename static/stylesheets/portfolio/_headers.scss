@@ -1,0 +1,73 @@
+//  ---------------
+//  portfolio : headers
+//  ---------------
+
+//  fixed and relative page headers
+//  -------------------------------
+
+
+.header__hero {
+  background: url(https://lh3.googleusercontent.com/yGEhDQZHBT6GtFg-Po320G0lBqxefhV1qFB06SItsEo0eBkQ6LoPUcw_rHCymNQPQRHTJGmmYkLm0F9fePY89kvGizEoZPskABpXruAXC0HwKpAu_IWB6xrk2aohW0IBKY8N8jxRO9mCivYl9KmhOhYVWDflF9yqGxJIYERKuHpzykYS3VBdXHSfRCJUi3A4Ad_HJ8cQ7Pd6-DeG1EvwUb_i4LLut6wqUu4_f73qzRmrkLW1iCrl7pjwvgYSHZ6c_t6M9guj8ZO6FunfFRP3NvqFTHMVY4o6_SJDV-z376t3elyBrdcBCw8qGoLT3KnGn8-CAwC9jSH039-rE6IHeFO-Bh44xW3TKSrnpR4z8qoeF-50Zq_-4nLEABD3ZWPk-0XNam2aPoN37y41_QXXVl8ce-iEhRKFO6GlfJdE5DhIFq5289u_x5eIrg6DBRs_revQHH0VIGik7Q-oyczv3MNIgfQ9AIctXfyaxjrg63lPt8QULEcABQsBUjHODoHsKSBMDIUrSLh4NaLlZVdXVcggUFF4k0VmAkqacbrZCRyUlk0EYhsvlFJImJIfSXf6U_wi2S2IZLNAWuNjsvN7aveDDLJ5SFxBcA5QUwRYCSg=w1600-h1066-no) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: gap(1);
+  z-index: -2;
+}
+
+.patternlib-background {
+  background: url(https://farm4.staticflickr.com/3859/15062533850_f23a56d5af_o.jpg) center center;
+  width: 100%;
+  height: gap(35);
+  padding-top: gap(3);
+}
+
+.methods-background {
+  background: url(https://farm4.staticflickr.com/3931/15434125086_6bcef2c408_h.jpg) center center;
+  width: 100%;
+  height: gap(15);
+  padding-top: gap(4);
+}
+
+.aboutme__hero {
+  height: gap(25);
+  background: url(http://farm6.staticflickr.com/5569/15047715369_37e0f17b4b_h.jpg) no-repeat center center fixed;
+}
+
+.toolkit__hero {
+  height: gap(25);
+  background: url(https://farm9.staticflickr.com/8320/7893850624_b0904792a9_o.jpg) no-repeat center center fixed;
+}
+
+.kinnalbook-header {
+  background: url(https://farm9.staticflickr.com/8170/7886663102_f965e4e9a1_o.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: gap(30);
+  padding-top: gap(2);
+}
+
+.baobab-header {
+  background: url(https://farm6.staticflickr.com/5615/15292488710_4151a9dfa0_h.jpg) center center;
+  height: gap(30);
+  padding-top: gap(2);
+}
+
+.maps-header {
+  background: url(https://farm9.staticflickr.com/8038/7886880350_a56302c9c8_o.jpg)  no-repeat center center fixed;
+  height: gap(30);
+  padding-top: gap(2);
+}
+
+
+.hero-mosaic {
+  padding-top: gap(2);
+  img {
+    padding: 0;
+    margin: 0;
+  }
+  .project__overlay {
+    position: relative;
+    top: -750px;
+  }
+}

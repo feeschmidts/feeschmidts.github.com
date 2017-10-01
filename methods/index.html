@@ -1,0 +1,25 @@
+---
+layout: default
+title: Methods
+---
+
+<div class="methods-background">
+  <h2 class="intro">A toolkit combining service design thinking with technical knowhow to <br>transform digital user experiences.</h2>
+</div>
+<div class="content__center">
+
+  {% for method in site.data.methods %}
+    <div class="method__list" id="{{ method.id }}">
+      <div class="span3of8">
+        <img src="{{ method.img }}" width="100%" alt="{{ method.imgalt }}">
+      </div>
+      <div class="span4of8">
+        <h2>{{ method.name }}</h2>
+        <p>{{ method.description }}</p>
+        <ul>
+          <li>{{ method.details }}</li>
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+</div>

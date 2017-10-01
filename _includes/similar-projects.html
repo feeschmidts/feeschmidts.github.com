@@ -1,0 +1,15 @@
+<section class="span8of8 footer__projects">
+  <h2 class="span8of8 footer__projects__title">Similar Projects</h2>
+  {% assign i = 0 %}
+  {% for project in site.data.projects %}
+    {% if project.categories contains page.tag and i != "3" %}
+    <article class="span1of3 span2of4 span2of2">
+      <a href="{{ project.url }}">
+        <img src="{{ project.img }}" width="100%" alt="{{ project.imgalt }}">
+      </a>
+      <h2 class="header__project">{{ project.name }}</h2>
+    </article>
+    {% capture i %}{{ i | plus:1 }}{% endcapture %}
+    {% endif %}
+  {% endfor %}
+</section>

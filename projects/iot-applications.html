@@ -1,0 +1,29 @@
+---
+layout: projects
+title: Internet of Things Applications
+category: Projects
+tag: service
+---
+<div class="content__center">
+	<section>
+		<h1 class="project__titles span8of8">Internet of Things End User Applications</h1>
+	</section>
+	<section>
+		{% for application in site.data.applications %}
+			<div class="method__list">
+				<div class="span3of8 span2of4 span2of2">
+					<img src="{{ application.img }}" width="100%" alt="{{ application.imgalt }}">
+				</div>
+				<div class="span4of8 span2of4 span2of2">
+					<h2>{{ application.name }}</h2>
+					<p>{{ application.description }}</p>
+					<p><strong>Responsibilities:</strong> {{ application.role }}</p>
+					{% if application.link %}
+						<a class="btn" href="{{ application.link }}">{{ application.linkname }}</a>
+					{% endif %}
+				</div>
+			</div>
+		{% endfor %}
+	</section>
+
+</div>

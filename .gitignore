@@ -10,5 +10,8 @@ _posts/20011-10-25-open-source-is-good.markdown
 Gemfile
 Gemfile.lock
 bin/
+.vagrant/
+node_modules/
+static/components
 
 *.scssc

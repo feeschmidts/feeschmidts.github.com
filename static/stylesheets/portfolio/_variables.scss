@@ -1,0 +1,83 @@
+//  --------------------------
+//  font :: variables :: utils
+//  --------------------------
+
+//  base sizes
+//  ----------
+    $base-font-size:   15px             !default;
+    $base-line-height: 1.33333333333333 !default;
+
+
+//  families
+//  --------
+    $main-font:       "open sans", "helvetica neue", "helvetica", 'Open Sans', sans-serif;
+
+
+//  weights
+//  -------
+    $font-weight-thin:    100;
+    $font-weight-regular: 300;
+    $font-weight-bold:    400;
+
+//  -----------------------------
+//  colours :: variables :: utils
+//  -----------------------------
+
+//  base
+//  ----
+    $white:        #FFFFFF !default;
+    $black:        #000000 !default;
+    $yellow:       #f2b814 !default;
+    $yellow-dark:       #f1a822 !default;
+    $orange:       #f3941b !default;
+    $red:          #da1b03 !default;
+    $red-dark:     #8e1102 !default;
+    $blue:         #388E8E !default;
+
+
+//  backgrounds
+//  -------
+    $gray-light: #D3D3D3;
+    $dark: #1F1F1F;
+
+//  text
+//  ----
+    $text-body:  #6f6f6e !default;
+    $text-light: $white;
+    $text-input: $text-body;
+
+//  body
+//  -------
+    $body-bg: $white;
+
+
+//  buttons
+//  -------
+    $btn-text:          $white;
+    $btn-bg:            #117fc2 !default;
+    $btn-bg-hover:      #00649c !default;
+    $btn-warn-bg:       #e8453f !default;
+    $btn-warn-bg-hover: #bf3030 !default;
+
+
+//  highlight
+//  ---------
+    $highlight-bg: $yellow;
+
+//-----------------------------
+//viewports - variables - utils
+//-----------------------------
+
+//viewport sizes
+//--------------
+  $mob:     0px    !default;
+  $ipho:    350px  !default;
+  $phab:    540px  !default;
+  $tab:     600px  !default;
+  $lap:     1080px !default;
+  $desk:    1440px !default;
+
+
+//is responsive?
+//--------------
+  $is-responsive: true !default;

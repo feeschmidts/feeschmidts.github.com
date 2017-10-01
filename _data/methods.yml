@@ -1,0 +1,172 @@
+- name: Brand Persona
+  datatags: Featured
+  excerpt: A Brand Persona defines how the brand values are, how it behaves and what it wants to express.
+  id: persona
+  img: https://d15n4q3o4x3svq.cloudfront.net/assets/tutorials/xively/xively-a3a5ade94230669d1a0d82473b025c93.png
+  imgalt: Screenshot of Brand Persona title page
+  description: Defining the Cosm Brand Persona helped to align design and marketing teams and informed messaging frameworks, website copy and the look and feel of Xively. For the Brand Persona, we adapted MailChimps Brand Persona using the <a href="http://aarronwalter.com/design-personas/">Design Persona template by Aaren Walter</a>.
+  details:
+    - Brand Traits
+    - Personality Map
+    - Principles
+    - Customer Perspective
+    - Voice
+    - Visual Lexicon
+    - General Style Notes
+    - Engagement Models
+  challenges:
+    - Making document actionable and inspirational
+    - Keeping it up to date as personality matures
+  url: http://designerlymethods.wordpress.com/2013/11/19/brand-persona/
+
+
+- name: Key Design Principles
+  datatags: Featured
+  excerpt: A small number of guiding principles to aid decision making.
+  id: principles
+  img: http://farm8.staticflickr.com/7455/9444112210_bb15ce3017.jpg
+  imgalt: Photo of the 5 Cosm Design Principles
+  description: Design Principles were a great tool to align expectations within the design team and across management. They were generic enough, so they could at all times be aspired to or references when doing wireframing or detailed design work.
+
+
+- name: Proto Personas
+  datatags: Featured
+  excerpt: Informs the design process and provides something to validate with real personas.
+  img: http://farm8.staticflickr.com/7281/9441052885_7637a76ed7.jpg
+  id: personas
+  imgalt: Close up of the 'Enterpreneur' persona card with other personas in the background
+  description: This tool helped to discuss with other designers and product owners the Cosm user base. The personas easily let to target segments which greatly informed customer journeys mapping. The Proto-Personas were updated and validated through user interviews and offered a great collection mechanism for insights. Proto-personas are a variant of a typical persona, with the important difference that they are not initially based on user research. Instead, they originate from brainstorming workshops where company participants try to encapsulate the organisation’s beliefs (based on their domain expertise and gut feeling) about who is using their product or service and what is motivating them to do so.
+
+
+- name: Open Brainstorms
+  img: http://farm4.staticflickr.com/3684/9415675176_4300963c5f.jpg
+  imgalt: Fee and Steph at Techcity's Women in Tech event brainstorming with visitors ideas for the IoT
+  description: The event was really helpful to talk to people about what Cosm does and how it could utilised to implement IoT ideas. It also helped to learn about hard and soft barriers of what's stopping people to build a connected product system.
+
+
+- name: Customer Journey Map
+  datatags: Featured
+  excerpt: Systematic approach to think about experience stages of different stakeholders using the same product.
+  id: journey
+  img: http://farm6.staticflickr.com/5339/9414872739_7babc9a937_o.jpg
+  imgalt: Close up of Customer Journey board
+  description: The Customer Journey Map is a great tool to think through the entire experience flow from how do people hear about the service, how do they signup, what actions do they want to do, to how do we entice users to come back using the service? Along the y axis, the customer journey is split into key stages. For how to 'realise IoT on Cosm'. Along the y axis, the different target personas are listed, in our case. This tool helped to visualise and think through the journeys identifing milestones, expectations and behavioural triggers.
+  details:
+    - Hearing about Cosm
+    - Being Convinced
+    - SignUp / Contact
+    - Learn to use Cosm
+    - Prototyping / Developing
+    - Debugging
+    - Deployment
+    - Management
+    - Payment
+    - Recommonding/ Sharing
+
+
+- name: Card Sorting
+  img: http://farm4.staticflickr.com/3750/9415676954_97bc0057a1.jpg
+  imgalt: Closeup of worksheets arranging cards
+  description: How to restructure navigation so it makes sense to people who use the service whilst meeting marketing requirements? A set of cards each containing one Xively asset. Users group the cards into mental 'buckets'. This exercise is great to understand how people think about importance and when they would expect to see it in the flow of the experience.
+  findings: Identifying double placements - pricing, developer Center assets - people requested to have accessible at all times
+
+
+- name: User Interviews
+  datatags: Featured
+  excerpt: Testing with wireframes or cards to understand people's expectations and sticky points.
+  id: interviews
+  img: http://farm4.staticflickr.com/3708/9412910811_0431172d53.jpg
+  imgalt: Closeup of a user annotating graph wireframes
+  description: Remote or in office testing, talking people through wireframe flows. Do people understand what the key actions are? Are there any words which are confusing? Gathering User feedback by letting people annotate things they like, don't like or simply don't understand. This technique is great for specific context tests like when testing graphs and controls or testing a specific page.
+  challenges:
+    - Keeping existing users focused on interface discussion rather than API functionality
+    - If the wireframe has words, people will read the copy. Avoid Lorem Ipsum to make wire content as finished as possible.
+    - Doing user testing as a team of one is challenging preparing questions and making notes of the conversation. For these situtaions it's much easier of user annotate and produce written artifacts of what works and doesn't work for them.
+
+
+- name: Sitemaps
+  img: http://farm6.staticflickr.com/5502/9415676760_a7aa42e175.jpg
+  imgalt: Sitemap for Xively Marketing Pages
+  description: Working with product owner to define pages and their requirements. The overview sitemap also helps to keep the purposes of the page focused - it must be in marketing's nature to want to communicate everything (at all times!) - so having a reference point on what was agreed somewhat helps to estimate workload. Thinking about what elements of pages need frequent updating helped to work out a strategy of how to maintain them.
+  challenges:
+
+
+- name: Wireframing
+  datatags: Featured
+  excerpt: Sketching and wireframing with moqups, axure and html.
+  id: wireframing
+  img: http://farm4.staticflickr.com/3750/9415675134_6131cda1e7_o.jpg
+  imgalt: Wireframe User Run-throughs
+  description:
+  process:
+    - Kickoff meeting where product owners comminicate intend and requirements for new features or products
+    - Rough sketches and hand drawn wireframes to discuss IA with product owners and align intent.
+    - Planning and running any research sessions with users to de-risk aspects of the designs.
+    - Producing wireframe mockups (<a hrfe="https://moqups.com/">moqups</a>)for further testing and sharing for potential external testing.
+    - Refine wireframes iteratively, summoning findings and evidencing changes to product owners.
+    - Running internal Show and Tell with developers to gather feedback and communicate intend of interfaces.
+
+
+- name: Design Studio Workshop
+  datatags: Featured
+  excerpt: Internal workshop to get everyone's input for a new feature.
+  id: workshop
+  img: http://farm8.staticflickr.com/7370/9415639698_11144f3239.jpg
+  imgalt: Fee introducing the 'Design Studio Workshop' objective to developers
+  description: "Jeff Gothelf in #LeanUX states 'XXX'. Xively incourages an open discussion culture, any question or aspects can be raised. Between design and development ...  Involving the developers in creative process to gather input."
+
+
+- name: Stopmotion Prototypes
+  img: http://farm3.staticflickr.com/2834/9412910131_0d1c795a24.jpg
+  imgalt: Storyboarding a stop motion mockup to communicate what 'Cosm is and can do'
+  description: Sometimes it's easiest to communicate ideas in a quick stopmotion. With a collegue we spent half day creating this video - storyboarding, taking the shots and doing the voice over.
+  url:
+
+
+- name: Paper Prototyping
+  img: http://farm4.staticflickr.com/3704/9420954553_599954cc44.jpg
+  imgalt: Photo of a Test Drive screen paper prototype
+  description: Paper Prototypes are a great way to test interactions between different online and offline elements. The Xively Test Drive is a 5 minute tutorial by which a smartphone is hooked up as the sensory device to Xively using a web app. The tutorial teaches people to set up a Development Device and demonstrates the basics of App &laquo; &raquo; Xively &laquo; &raquo; Device communication requiring constant switching between taps and multiple screen devices.
+  url: http://xively.com/testdrive
+
+
+- name: HTML Prototyping
+  img: http://farm4.staticflickr.com/3812/9441419059_9c76afa224.jpg
+  imgalt: Screenshot of Navigation prototype testing new arrangement and interaction between logged in and logged out content
+  description: HTML prototypes help to test any new features or flows which are heavily dependent on the interaction experience. Rather than mocking the experience in a clickable wireframe, things like 'navigation' or the 'test drive tutorial' greatly benefited from being able to test an almost real thing with users. It's also quicker to update as insights are gathered. Doing HTML prototypes using <a href="http://foundation.zurb.com/">foundation</a> or <a href="http://twitter.github.io/bootstrap/">bootstrap</a> is easy enough and allows skill development, which is much more fun than copy/ pasting and defining interactive elements in a wireframe tool.
+
+
+- name: Retrospective
+  img: http://farm3.staticflickr.com/2882/9415675648_f2e4c96ebf.jpg
+  imgalt: Photo of a retrospective at Xively - reflecting on the progress and team work of the last two weeks.
+  description: "Retrospectives are part of the Scrum toolset. Every two weeks all Xively employees in London and Boston meet to discuss the processes and work of the last two weeks. The sessions are always planned around a 'game' which provide different nudges for positive and negative comments. The two games we play regularly are: 'Timeline' and 'Keep, Stop, Start'. With both games the facilitator reads out each post-it and the team has an opportunity to discuss. Action points are noted down and shared with the whole team. At the start of the next retro these action points get reviewed."
+  url: http://designerlymethods.wordpress.com/2013/07/12/games-scrum-principles/
+
+
+- name: Brand Identity Styleguide
+  img: http://farm6.staticflickr.com/5462/9423866636_414927df39.jpg
+  imgalt: Photo of the Xively brand guideline book
+  description: "The Xively Identity summarised in a beautifully layed out book, to help external teams keep a coherent Brand Identity when they work on sales collateral or tradeshow touchpoints."
+  details:
+    - Company Personality
+    - Logo Guidelines
+    - Product Logos
+    - Color Combinations and Application
+    - Typeface
+    - Typography
+    - Graphic Style and Touchpoint Application
+  url: http://issuu.com/petecorreia/docs/xively_identity_guidelines_with_cov?e=4570154/5154672
+
+
+- name: A/B Testing with Optimizely
+  img: http://farm8.staticflickr.com/7382/9448597867_b254de7f31.jpg
+  imgalt: Screenshot of Xively Optimizely Dashboard
+  description: "A/B testing with Xively's visitor rate let's one determine a relatively statistically relevant winner variation within a short amount of time. We often let experiments run between one and three weeks. We've utilised Optimizely to test a variety of button labels and form fields to increase inquires and signups. Demonstrating benefits for frictioness forms. Sometimes Marketing requirements can be conflicting with User Experience, Optimizely allowed to gain evidence to remove form fields which sole purpose was 'collect everything possible from people to maybe utilize later for marketing'. Improving flows to drive inquiries For a long time, the Signup form didn't specify what type of account people are signing up for and didn't encourage finding out about pricing or commercial services. By adding a link and a small description up top, we increased commercial inquiries by 30%."
+
+- name: UI Styleguide
+  datatags: Featured
+  excerpt: UI framework with UI elements, UX guidelines and Brand Identity documentation.
+  id: framework
+  img: https://farm4.staticflickr.com/3932/15450235352_65b282a36d_b.jpg
+  imgalt: Screenshot of the Xively Pattern Library
+  description:

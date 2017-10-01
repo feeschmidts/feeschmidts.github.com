@@ -1,0 +1,154 @@
+//  -----------------------------
+//  transition :: mixins :: utils
+//  -----------------------------
+
+    @mixin transition ( $arguments ) {
+
+      @each $prefix in "-webkit-", "-moz-", "" {
+
+        #{$prefix}transition: #{$arguments};
+
+      }
+
+    }
+
+//  -----------------------
+//  calc :: mixins :: utils
+//  -----------------------
+
+    @mixin calc ( $val, $prop: width ) {
+      @if ($val and $val != "") {
+        @each $prefix in "-webkit-", "-moz-", "" {
+
+          #{$prop}: #{$prefix}calc(#{$val});
+
+        }
+      } @else {
+
+        @warn "To use calc you must pass a value string, e.g. \"100% - 100px\""
+
+      }
+    }
+
+//  ----------------------------
+//  transform :: mixins :: utils
+//  ----------------------------
+
+//  transform
+//  ---------
+    @mixin transform ( $args ) {
+
+      @each $prefix in "-webkit-", "-moz-", "-ms-", "" {
+
+        #{$prefix}transform: $args
+
+      }
+
+    }
+
+//  -----------------------
+//  text :: mixins :: utils
+//  -----------------------
+
+    @mixin text ( $font-size: 1, $relative-multiplier: "" ) {
+      $multiplier:   1;
+      $rounded-font: round($font-size);
+
+      @if $relative-multiplier == "" {
+        @if $font-size / $rounded-font >= 1 {
+
+          $multiplier: $rounded-font + round-to-nearest-quarter($font-size);
+
+        } @else {
+
+          $multiplier: $rounded-font - round-to-nearest-quarter($font-size, true);
+
+        }
+
+        line-height: $base-line-height * $multiplier + 0.0001 + rem;
+      }
+
+      @if type-of($relative-multiplier) == number and $relative-multiplier != "" {
+
+        line-height: gap($relative-multiplier);
+
+      }
+
+      font-size: $font-size + 0.0001 + rem;
+    }
+
+//  ------------------------------
+//  show & hide :: mixins :: utils
+//  ------------------------------
+
+//  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  this mixins are an attempt to DRY the show & hide singulars.
+//  it takes two arguments, the first is whether it should output
+//  show or hide functionality and the second is whether it should
+//  use @extend. the reason for this is that you can!= @extend
+//  from inside a media query.
+//  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    @mixin show-hide ( $show-or-hide: show, $use-extend: false ) {
+      @if $show-or-hide == show {
+
+        height: auto;
+        clip: auto;
+        visibility: visible;
+        position:static;
+      }
+
+      @if $show-or-hide == hide {
+
+        height: 0;
+        clip: rect(0, 0, 0, 0);
+        visibility: hidden;
+        position:absolute;
+
+      }
+    }
+
+//  ------------------------------
+//  media query :: mixins :: utils
+//  ------------------------------
+
+//  media query
+//  -----------
+    @mixin media-query ($min: "", $max: "") {
+      @if ($min != "") {
+
+        $min: $min / 16px + em;
+
+      }
+
+      @if ($max != "" and $max > 0px) {
+
+        $max: ($max - 1px) / 16px + em;
+
+      }
+
+      @if ($min != "" and $max != "") {
+
+        @media screen and (min-width: $min) and (max-width: $max) {
+          @content;
+        }
+
+      } @else {
+
+        @if ($min != "") {
+
+          @media screen and (min-width: $min) {
+            @content;
+          }
+
+        }
+
+        @if ($max != "") {
+
+          @media screen and (max-width: $max) {
+            @content;
+          }
+
+        }
+      }
+    }

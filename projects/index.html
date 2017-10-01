@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+---
+
+<section class="span8of8">
+  <div id="tag-buttons"></div>
+  <p class="tag-buttons__count">Showing <span class="active"></span> of <span class="total"></span> projects</p>
+</section>
+
+<div class="grid" id="projects">
+
+  {% for project in site.data.projects %}
+      <div class="span1of3 span2of4 span2of2 project" data-tag='["{{ project.datatags | join:'", "' }}"]'>
+        <a href="{{ project.url }}">
+          <img src="{{ project.introimg }}" width="100%" alt="{{ project.introimgalt }}">
+        </a>
+        <h2 class="header__project">{{ project.name }}</h2>
+        <p class="small">{{ project.categories | join:' | ' }}</p>
+        {{ project.intro | markdownify }}
+      </div>
+  {% endfor %}
+
+</div>
+
+<script src="/static/js/project-selector.js"></script>

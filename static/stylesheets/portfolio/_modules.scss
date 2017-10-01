@@ -1,0 +1,348 @@
+//  ---------------
+//  portfolio : modules
+//  ---------------
+
+//  nav
+//  -------
+
+.top-nav {
+  height: 50px;
+  width: 100%;
+  background-color: $dark;
+  position: absolute;
+  padding: gap(0.5);
+  color: $white;
+  font-weight: $font-weight-bold;
+}
+
+.intro {
+  @include text(2,2);
+  font-weight: $font-weight-bold;
+  color: $white;
+  padding-top: gap(1.5);
+  text-align: center;
+}
+
+#tag-buttons {
+  padding-top: gap(2);
+  text-align: center;
+}
+
+.tag-buttons__count {
+  @include text(1.2);
+  text-align: center;
+  padding-top: gap(1);
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid $black;
+  padding: gap(.5);
+}
+.btn:hover,
+.btn.active {
+    background: $yellow;
+    color: $white;
+    border-color: $yellow;
+  }
+
+.btn {
+  margin-right: gap(1);
+  margin-bottom: gap(.5);
+}
+
+//  Color page
+//  ----------
+
+.colors__red {
+  height: gap(3);
+  background-color: $red;
+}
+.colors__yellow {
+  height: gap(3);
+  background-color: $yellow;
+}
+.colors__yellow-dark {
+  height: gap(3);
+  background-color: $yellow-dark;
+}
+
+.colors__orange {
+  height: gap(3);
+  background-color: $orange;
+}
+
+.colors__red-dark {
+  height: gap(3);
+  background-color: $red-dark;
+}
+
+.colors__blue {
+  height: gap(3);
+  background-color: $blue;
+}
+
+.colors__black {
+  height: gap(3);
+  background-color: $black;
+}
+
+footer {
+  background: $dark;
+  color: $gray-light;
+  padding: gap(1);
+}
+
+.footer__projects {
+  margin-top: gap(3);
+  background: $gray-light;
+  padding: gap(1.5);
+  .header__project {
+    @include text(1);
+  }
+}
+
+.footer__projects__title {
+  @include text(1.5,1);
+  font-style: italic;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+section {
+  padding-top: gap(1);
+}
+
+.section__header {
+  @include text(1.5, 1);
+  padding-bottom: gap(1);
+  padding-left: gap(.5);
+  padding-top: gap(.75);
+
+  a {
+    @include text(1, 1);
+    margin-left: gap(2);
+  }
+}
+
+.styleguide__icons {
+  input {
+    margin-top: 5px;
+    padding: 8px;
+    display: block;
+    width: 180px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f4f4f4;
+  }
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__project {
+  @include text(1.5);
+  padding-top: gap(.5);
+}
+
+.aboutme__heading {
+  @include text(3,2);
+  padding-top: gap(1);
+}
+
+.aboutme__statement {
+  color: $white;
+  a {
+    border-color: $white;
+  }
+  a:hover {
+    border-color: $yellow;
+  }
+}
+
+.logo__nav {
+  width: gap(5.5);
+}
+
+.content__center {
+  @include text(1, 1.25);
+  z-index: 1;
+  max-width: gap(45);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: gap(3);
+  padding-bottom: gap(4);
+}
+
+.project__titles {
+  @include text(1.5);
+  font-weight: $font-weight-bold;
+}
+
+blockquote {
+  @include text(1.25, 1.5);
+  font-weight: $font-weight-thin;
+  margin-top: gap(2);
+}
+
+#methods {
+  background: $gray-light;
+  padding-bottom: gap(1);
+  p {
+    @include text(0.8);
+  }
+}
+
+.method__title {
+  @include text(1, .5);
+  padding-bottom: gap(0);
+}
+
+ul.tree {
+
+  li {
+    list-style-position: inside;
+    list-style-type: square;
+  }
+
+  ul {
+    margin-left: gap(1);
+  }
+}
+
+.method__list {
+  padding-bottom: gap(2);
+  p {
+    @include text(0.9, 1);
+  }
+}
+
+.nav__page {
+  @include text(1.1);
+  padding-left: gap(1);
+  position: relative;
+  top: -7px;
+}
+
+.footer-icons {
+  @include text(2);
+  color: $gray-light;
+  float: right;
+}
+
+.project__overlay {
+  margin-top: gap(3);
+  margin-left: gap(2);
+  top: -700px;
+  h2 {
+    @include text(2,1);
+    background-color: rgba(0,0,0,0.65);;
+    color: $white;
+
+    padding: gap(.5) gap(.5) 0 gap(.5);
+    float: left;
+    height: gap(2.1);
+    clear: both;
+  }
+  p {
+    @include text(1);
+    background-color: rgba(0,0,0,0.65);;
+    color: $white;
+    padding: gap(.25) gap(.5) 0 gap(.5);
+    float: left;
+    clear: both;
+  }
+}
+
+.project__overlay--fixed {
+  @extend .project__overlay;
+  position: fixed;
+}
+
+.video {
+  margin-top: gap(2);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.show-wheel {
+  background: $black;
+  padding-bottom: gap(1);
+  margin-top: gap(3);
+  margin-bottom: gap(3);
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.participants .item {
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding: 2px;
+  margin: 2px;
+}
+
+.participants .item:hover {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-ms-transform: scale(1);
+}
+
+.participants .description {
+	opacity: 0;
+	position: absolute;
+	top: 90px;
+	width: 150px;
+	margin-left: 5px;
+	text-align: left;
+	font-size: 20px;
+}
+.participants .item:hover .description {
+	opacity: 1;
+}
+
+.participants .item .description {
+	color: #FFF;
+	text-decoration:none;
+}
+
+.participants .item .description h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item .description p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.participants .item:hover .overlay {
+	opacity:1;
+}
+
+.overlay {
+	padding: 2px;
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:150px;
+	height:150px;
+	background:url('/static/images/overlay2.png');
+	opacity:0;
+}
+
+.project__logos {
+  margin-bottom: gap(2);
+}
