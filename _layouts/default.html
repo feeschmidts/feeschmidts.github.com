@@ -29,15 +29,15 @@
 </head>
 <body>
 
-  <div id="main">
+  <div id="main" style="min-height: 100vh">
 
     {% include nav.html %}
 
     <div>
     {{ content }}
     </div>
-    {% include footer.html %}
   </div>
+  {% include footer.html %}
 
   <script type="text/javascript">
     $(document).ready(function() {
