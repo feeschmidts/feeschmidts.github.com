@@ -20,35 +20,23 @@ $(function() {
     tagbuttons.append(button);
   });
   $('body').on('click', '#tag-buttons button', function() {
-    var activebuttons = $('#tag-buttons button.active');
-    var activetags = [];
-    if (activebuttons.length) {
-      // $('div.project').hide();
-      activebuttons.each(function() {
-        var tagname = $(this).data('tag');
-        activetags.push(tagname);
+    var $button = $(this);
+    $('#tag-buttons button.active').removeClass('active')
+    $button.toggleClass('active');
+    var activetags = [$button.data('tag')];
+    $('div.project').each(function() {
+      var $project = $(this);
+      var matched = $.grep($project.data('tag'), function(tagname) {
+        return $.inArray(tagname, activetags) !== -1;
       });
-      // console.log(activetags);
-      $('div.project').each(function() {
-        var $this = $(this);
-        var matched = $.grep($this.data('tag'), function(tagname) {
-          return $.inArray(tagname, activetags) !== -1;
-        });
 
-        if (matched.length) {
-            $this.addClass("active").show("fast");
-        }
-        else {
-            $this.hide().removeClass("active");
-        }
-        // $(taglist[tagname]).first().show("fast", function showNext() {
-        //   $(this).next().show("fast", showNext);
-        // });
-      });
-    }
-    else {
-      $('div.project').addClass("active").show();
-    }
+      if (matched.length) {
+          $project.addClass("active").show("fast");
+      }
+      else {
+          $project.hide().removeClass("active");
+      }
+    });
     var active = $('.project.active').length;
     $('span.active').text(active);
   });
@@ -56,9 +44,3 @@ $(function() {
 });
 
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-// var divs = $("div.project").get().sort(function(){
-//             return Math.round(Math.random())-0.5; //so we get the right +/- combo
-//            }).slice(0,4);
-// $(divs).appendTo(divs[0].parentNode).show();
-
