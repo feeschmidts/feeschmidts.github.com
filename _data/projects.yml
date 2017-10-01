@@ -110,6 +110,7 @@
 - name: CarbonCulture
   datatags:
     - Digital / Print Touchpoints
+    - Featured
     - User Experience
     - Design Research
     - Design for Service
@@ -154,6 +155,7 @@
 - name: Maps of Monchique
   datatags:
     - Digital / Print Touchpoints
+    - Featured
     - Design Research
     - Prototyping
     - Design for Service
