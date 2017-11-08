@@ -1,5 +1,6 @@
 - name: Commonplace
   datatags:
+    - All
     - Featured
     - User Experience
     - HTML + CSS
@@ -29,6 +30,7 @@
 
 - name: Xively IoT Platform
   datatags:
+    - All
     - Featured
     - Digital / Print Touchpoints
     - User Experience
@@ -134,6 +136,7 @@
 
 - name: CarbonCulture
   datatags:
+    - All
     - Digital / Print Touchpoints
     - User Experience
     - Design Research
@@ -176,6 +179,7 @@
 
 - name: Maps of Monchique
   datatags:
+    - All
     - Digital / Print Touchpoints
     - Featured
     - Design Research
@@ -195,6 +199,7 @@
 
 - name: Novas Direcoes
   datatags:
+    - All
     - Digital / Print Touchpoints
     - Design Research
     - Prototyping
@@ -216,6 +221,7 @@
 
 - name: Getgo Glasgow
   datatags:
+    - All
     - Prototyping
     - Design for Service
     - Design for Development
@@ -236,6 +242,7 @@
 
 - name: Social Innovation Toolkit
   datatags:
+    - All
     - Prototyping
     - Design for Service
     - Design for Development
@@ -257,6 +264,7 @@
 
 - name: Kinnal Craft Book
   datatags:
+    - All
     - Digital / Print Touchpoints
     - Curation / Editing
     - Documentation
@@ -274,6 +282,7 @@
 
 - name: Kinnal Craft
   datatags:
+    - All
     - Design for Development
     - Design Research
     - Documentation
@@ -292,6 +301,7 @@
 
 - name: Levenskracht
   datatags:
+    - All
     - Design for Service
     - Design for Development
     - Digital / Print Touchpoints
@@ -310,6 +320,7 @@
 
 - name: Brand Transition Strategy
   datatags:
+    - All
     - Branding / Identity
     - Design Strategy
     - Design Research
